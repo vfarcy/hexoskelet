@@ -3,10 +3,10 @@
 ## Source: https://github.com/tommy351/hexo/
 
 # Site
-title: Hexo
+title: Hexoskelet
 subtitle:
 description:
-author: John Doe
+author: Valéry Farcy
 email:
 language:
 
@@ -81,7 +81,7 @@ disqus_shortname:
 # Extensions
 ## Plugins: https://github.com/tommy351/hexo/wiki/Plugins
 ## Themes: https://github.com/tommy351/hexo/wiki/Themes
-theme: landscape
+theme: persona
 exclude_generator:
 
 # Deployment
