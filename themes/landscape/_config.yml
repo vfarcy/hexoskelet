@@ -2,6 +2,7 @@
 menu:
   Home: /
   Archives: /archives
+  Life: /life
 rss: /atom.xml
 
 # Content
@@ -20,7 +21,7 @@ widgets:
 # Miscellaneous
 google_analytics:
 favicon: /favicon.png
-twitter:
+twitter: VF4rcy
 google_plus:
 fb_admins:
 fb_app_id:
