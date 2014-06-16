@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head prefix="og: http://ogp.me/ns#">
+  <meta charset="utf-8">
+  <title><% if (page.title){ %><%= page.title %> | <% } %>Hexo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <link rel="canonical" href="<%- page.permalink %>">
+  <%- favicon_tag('favicon.ico') %>
+  <link href="<%- url_for('apple-touch-icon.png') %>" rel="apple-touch-icon">
+  <link href="<%- url_for('apple-touch-icon-76x76.png') %>" rel="apple-touch-icon" sizes="76x76">
+  <link href="<%- url_for('apple-touch-icon-120x120.png') %>" rel="apple-touch-icon" sizes="120x120">
+  <link href="<%- url_for('apple-touch-icon-152x152.png') %>" rel="apple-touch-icon" sizes="152x152">
+  <%- css('css/style') %>
+  <link href="//fonts.googleapis.com/css?family=Lato:300,700" rel="stylesheet" type="text/css">
+  <link href="//fonts.googleapis.com/css?family=Source+Code+Pro:400,700" rel="stylesheet" type="text/css">
+  <%- feed_tag('atom.xml') %>
+  <%- open_graph({
+    fb_admins: theme.fb_admins,
+    twitter_site: '@' + theme.twitter,
+    image: url_for('logo.png')
+  }) %>
+  <%- partial('google-analytics') %>
+</head>
