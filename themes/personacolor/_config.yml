@@ -1,6 +1,6 @@
 #You can eidt the color scheme in source/css/_base/variable.styl
 
-photo: ./me.jpg
+photo: me.jpg
 
 email: 
 twitter: VF4rcy
