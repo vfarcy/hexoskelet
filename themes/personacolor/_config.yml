@@ -1,16 +1,16 @@
 #You can eidt the color scheme in source/css/_base/variable.styl
 
-photo: /icon.jpg
+photo: ./me.jpg
 
 email: 
-twitter: little_cup
+twitter: VF4rcy
 facebook: 
-googleplus: "+RuoxinHe"
-github: 
+googleplus: 
+github: https://github.com/vfarcy
 pinterest: 
-linkedin: 
+linkedin: http://fr.linkedin.com/in/vfarcy/
 instagram: 
-zhihu: littlecup
+zhihu: 
 weibo: 
 renren: 
 
@@ -18,7 +18,7 @@ renren:
 addthis:
   enable: false
   pubid:
-  facebook: true
+  facebook: false
   twitter: true
   google: true
   pinterest: true
