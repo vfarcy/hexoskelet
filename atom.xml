@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title><![CDATA[Hexoskelet]]></title>
+  <subtitle><![CDATA[In a nutshell]]></subtitle>
+  <link href="/hexoskelet/atom.xml" rel="self"/>
+  <link href="http://vfarcy.github.io/hexoskelet/"/>
+  <updated>2014-06-17T06:22:28.542Z</updated>
+  <id>http://vfarcy.github.io/hexoskelet/</id>
+  
+  <generator uri="http://zespia.tw/hexo/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[Avec un éxant]]></title>
+    <link href="http://vfarcy.github.io/hexoskelet/2014/06/16/avec-un-exant/"/>
+    <id>http://vfarcy.github.io/hexoskelet/2014/06/16/avec-un-exant/</id>
+    <published>2014-06-16T14:35:51.000Z</published>
+    <updated>2014-06-16T15:05:54.000Z</updated>
+    <content type="html"><![CDATA[<h1 id="Apprendre_le_langage_Javascript">Apprendre le langage Javascript</h1>
+<p>Ce livre va vous apprendre les bases de la programmation et Javascript. Que vous soyez un programmeur expérimenté ou pas, ce livre est destiné à tous ceux qui souhaitent apprendre le langage de programmation JavaScript.</p>
+<blockquote>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque hendrerit lacus ut purus iaculis feugiat. Sed nec tempor elit, quis aliquam neque. Curabitur sed diam eget dolor fermentum semper at eu lorem.</p>
+</blockquote>
+
+
+<blockquote>
+
+<p>Do not just seek happiness for yourself. Seek happiness for all. Through kindness. Through mercy.</p>
+<footer><strong>David Levithan</strong><cite>Wide Awake</cite></footer></blockquote>
+
+
+<blockquote>
+
+<p>NEW: DevDocs now comes with syntax highlighting. <a href="http://devdocs.io" target="_blank" rel="external">http://devdocs.io</a></p>
+<footer><strong>@DevDocs</strong><cite><a href="https://twitter.com/devdocs/status/356095192085962752" target="_blank" rel="external">twitter.com/devdocs/status/&hellip;</a></cite></footer></blockquote>
+
+
+<blockquote>
+
+<p>Every interaction is both precious and an opportunity to delight.</p>
+<footer><strong>Seth Godin</strong><cite><a href="http://sethgodin.typepad.com/seths_blog/2009/07/welcome-to-island-marketing.html" target="_blank" rel="external">Welcome to Island Marketing</a></cite></footer></blockquote>
+
+
+<figure class="highlight"><figcaption><span>.compact</span><a href="http://underscorejs.org/#compact" target="_blank" rel="external">Underscore.js</a></figcaption><table><tr><td class="gutter"><pre>1
+2
+</pre></td><td class="code"><pre>.compact([<span class="number">0</span>, <span class="number">1</span>, <span class="keyword">false</span>, <span class="number">2</span>, ‘’, <span class="number">3</span>]);
+=&gt; [<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>]
+</pre></td></tr></table></figure>
+
+]]></content>
+    
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Hello World]]></title>
+    <link href="http://vfarcy.github.io/hexoskelet/2014/06/16/hello-world/"/>
+    <id>http://vfarcy.github.io/hexoskelet/2014/06/16/hello-world/</id>
+    <published>2014-06-16T13:34:59.000Z</published>
+    <updated>2014-06-16T13:34:59.000Z</updated>
+    <content type="html"><![CDATA[<p>Welcome to <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="http://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="http://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">trobuleshooting</a> or you can ask me on <a href="https://github.com/tommy351/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
+<h2 id="Quick_Start">Quick Start</h2>
+<h3 id="Create_a_new_post">Create a new post</h3>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre>1
+</pre></td><td class="code"><pre>$ hexo new <span class="string">"My New Post"</span>
+</pre></td></tr></table></figure>
+
+<p>More info: <a href="http://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
+<h3 id="Run_server">Run server</h3>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre>1
+</pre></td><td class="code"><pre>$ hexo server
+</pre></td></tr></table></figure>
+
+<p>More info: <a href="http://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
+<h3 id="Generate_static_files">Generate static files</h3>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre>1
+</pre></td><td class="code"><pre>$ hexo generate
+</pre></td></tr></table></figure>
+
+<p>More info: <a href="http://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
+<h3 id="Deploy_to_remote_sites">Deploy to remote sites</h3>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre>1
+</pre></td><td class="code"><pre>$ hexo deploy
+</pre></td></tr></table></figure>
+
+<p>More info: <a href="http://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+]]></content>
+    
+    
+  </entry>
+  
+</feed>
