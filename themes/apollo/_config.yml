@@ -1,9 +1,9 @@
 # Header
 menu:
   Home: .
-  Archives: archives
-  About: about
-rss: atom.xml
+  Archives: /hexoskelet/archives
+  About: /hexoskelet/about
+rss: /hexoskelet/atom.xml
 
 # Content
 excerpt_link: Read More
