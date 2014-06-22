@@ -1,8 +1,7 @@
 # Header
 menu:
-  Home: .
+  Home: /hexoskelet
   Archives: /hexoskelet/archives
-  About: /hexoskelet/about
 rss: /hexoskelet/atom.xml
 
 # Content
