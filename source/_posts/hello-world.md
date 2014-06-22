@@ -1,8 +1,29 @@
-title: Hello World
+title: Hello Hexo.io
 ---
-Welcome to [Hexo](http://hexo.io/)! This is your very first post. Check [documentation](http://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [trobuleshooting](http://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/tommy351/hexo/issues).
+I just installed [Hexo](http://hexo.io/)! This is my very first post. If you are interested in knowing more about this new kind of blog framework, check [the documentation](http://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [trobuleshooting](http://hexo.io/docs/troubleshooting.html) or you can ask me at [@VF4rcy](https://twitter.com/VF4rcy).
+
+
 
 ## Quick Start
+
+### Install hexo at the global level
+``` bash
+$ npm install hexo -g
+```
+
+### Build your blogging environment
+``` bash
+$ hexo ini <folder>
+```
+
+### Configure _config.yml
+Edit your [_config.yml file] http://hexo.io/docs/configuration.html depending your needs. You can configure most of options here
+
+### Install the required node modules
+
+``` bash
+$ npm install
+```
 
 ### Create a new post
 
