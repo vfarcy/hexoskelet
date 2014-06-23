@@ -11,6 +11,4 @@ De retour d'une cérémonie émouvante pour accompagner un copain vers se derni�
 
 RIP @ Thierry.
 
-http://www.youtube.com/watch?v=UJwmpmZytGg
-
 {% youtube UJwmpmZytGg %}
