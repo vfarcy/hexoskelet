@@ -1,7 +1,3 @@
-id: 1259
-comment: false
-categories:
-  - english
 ---
 title: ""It stung in the ass" - V"
 date: 2011-11-27 17:59:09
