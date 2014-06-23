@@ -1,7 +1,3 @@
-id: 311
-comment: false
-categories:
-  - français
 ---
 title: ""ça pique au cul" - V"
 date: 2011-11-27 16:57:05
