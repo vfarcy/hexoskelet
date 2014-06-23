@@ -1,8 +1,4 @@
 title: '2013 might be the year you ...'
-id: 1485
-comment: false
-categories:
-  - english
 date: 2012-12-31 22:29:51
 tags:
 ---
