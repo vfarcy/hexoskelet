@@ -1,7 +1,3 @@
-id: 167
-comment: false
-categories:
-  - français
 ---
 title: " Printf("RIP Dennisn");"
 date: 2011-10-15 17:30:55
