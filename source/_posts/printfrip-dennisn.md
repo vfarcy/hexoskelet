@@ -1,4 +1,4 @@
-title: " Printf("RIP Dennisn");"
+title: 'Printf("RIP Dennisn");'
 date: 2011-10-15 17:30:55
 tags:
 ---

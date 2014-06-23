@@ -1,4 +1,4 @@
-title: ""It stung in the ass" - V"
+title: 'It stung in the ass" - V'
 date: 2011-11-27 17:59:09
 tags:
 ---
