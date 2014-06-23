@@ -4,7 +4,7 @@
   <subtitle><![CDATA[In a nutshell]]></subtitle>
   <link href="/hexoskelet/atom.xml" rel="self"/>
   <link href="http://vfarcy.github.io/hexoskelet/"/>
-  <updated>2014-06-23T10:22:31.438Z</updated>
+  <updated>2014-06-23T12:08:04.195Z</updated>
   <id>http://vfarcy.github.io/hexoskelet/</id>
   
   <author>
@@ -25,51 +25,6 @@
 <p>Petit à petit, j’avance ainsi dans la mise en place de la plate-forme qui va remplacer mon ancien blog propulsé par wordpress. Cette migration me permet de découvrir l’écosystème de Node.js et de laisser derrière moi les technos LAMP vieillissantes.</p>
 ]]></content>
     
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[Avec un éxant]]></title>
-    <link href="http://vfarcy.github.io/hexoskelet/2014/06/20/avec-un-exant/"/>
-    <id>http://vfarcy.github.io/hexoskelet/2014/06/20/avec-un-exant/</id>
-    <published>2014-06-20T14:35:51.000Z</published>
-    <updated>2014-06-23T06:07:31.000Z</updated>
-    <content type="html"><![CDATA[<h1 id="Apprendre_le_langage_Javascript">Apprendre le langage Javascript</h1>
-<p>Ce livre va vous apprendre les bases de la programmation et Javascript. Que vous soyez un programmeur expérimenté ou pas, ce livre est destiné à tous ceux qui souhaitent apprendre le langage de programmation JavaScript.</p>
-<blockquote>
-
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque hendrerit lacus ut purus iaculis feugiat. Sed nec tempor elit, quis aliquam neque. Curabitur sed diam eget dolor fermentum semper at eu lorem.</p>
-</blockquote>
-
-
-<blockquote>
-
-<p>Do not just seek happiness for yourself. Seek happiness for all. Through kindness. Through mercy.</p>
-<footer><strong>David Levithan</strong><cite>Wide Awake</cite></footer></blockquote>
-
-
-<blockquote>
-
-<p>NEW: DevDocs now comes with syntax highlighting. <a href="http://devdocs.io" target="_blank" rel="external">http://devdocs.io</a></p>
-<footer><strong>@DevDocs</strong><cite><a href="https://twitter.com/devdocs/status/356095192085962752" target="_blank" rel="external">twitter.com/devdocs/status/&hellip;</a></cite></footer></blockquote>
-
-
-<blockquote>
-
-<p>Every interaction is both precious and an opportunity to delight.</p>
-<footer><strong>Seth Godin</strong><cite><a href="http://sethgodin.typepad.com/seths_blog/2009/07/welcome-to-island-marketing.html" target="_blank" rel="external">Welcome to Island Marketing</a></cite></footer></blockquote>
-
-
-<figure class="highlight"><figcaption><span>.compact</span><a href="http://underscorejs.org/#compact" target="_blank" rel="external">Underscore.js</a></figcaption><table><tr><td class="gutter"><pre>1
-2
-</pre></td><td class="code"><pre>.compact([<span class="number">0</span>, <span class="number">1</span>, <span class="keyword">false</span>, <span class="number">2</span>, ‘’, <span class="number">3</span>]);
-=&gt; [<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>]
-</pre></td></tr></table></figure>
-
-]]></content>
-    
-    
-      <category term="thisisatag" scheme="http://vfarcy.github.io/hexoskelet/tags/thisisatag/"/>
     
   </entry>
   
@@ -179,105 +134,6 @@
   </entry>
   
   <entry>
-    <title><![CDATA[A new writing workflow]]></title>
-    <link href="http://vfarcy.github.io/hexoskelet/2013/12/30/a-new-writing-workflow-2/"/>
-    <id>http://vfarcy.github.io/hexoskelet/2013/12/30/a-new-writing-workflow-2/</id>
-    <published>2013-12-30T10:07:55.000Z</published>
-    <updated>2014-06-23T09:49:04.000Z</updated>
-    <content type="html"><![CDATA[<p>Back to the blog today, I did some maintenance and installed a new feature that allows me to write in Markdown from draftin.com and to publish in one click.</p>
-<p><strong>Markdown</strong></p>
-<p>This page has been created by entering Markdown, a lightweight markup language based on the formatting conventions that people naturally use in email.</p>
-<p>As <a href="http://daringfireball.net/" target="_blank" rel="external">John Gruber</a> writes on the <a href="http://daringfireball.net/projects/markdown/" target="_blank" rel="external">Markdown site</a>:</p>
-<blockquote>
-<p>The overriding design goal for Markdown’s<br>formatting syntax is to make it as readable<br>as possible. The idea is that a<br>Markdown-formatted document should be<br>publishable as-is, as plain text, without<br>looking like it’s been marked up with tags<br>or formatting instructions.<br><strong>Draft</strong></p>
-</blockquote>
-<p><a href="https://draftin.com/" target="_blank" rel="external">Draft</a> has been designed by <a href="https://twitter.com/natekontny" target="_blank" rel="external">Nathan Kontny</a> to bring writers what they really need. Draft is not only a distraction free online text editor that provides amazing features such as version management, team collaboration and transcription tools, all together in a sleek environment. Draft also features a special editing mode which is called “Hemingway mode”.</p>
-<p>“Hemingway mode” is about being focused on writing, by turning off the ability to delete anything in your document. In this mode, you can only go forward. You can’t go backward. Editing and writing are two very different functions and one shouldn’t pollute the other. It’s difficult to write if you’re in a editing mindset and removing more words than you’re putting on the page.</p>
-]]></content>
-    
-    
-      <category term="english" scheme="http://vfarcy.github.io/hexoskelet/categories/english/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[Le cerf-volant]]></title>
-    <link href="http://vfarcy.github.io/hexoskelet/2013/12/30/le-cerf-volant/"/>
-    <id>http://vfarcy.github.io/hexoskelet/2013/12/30/le-cerf-volant/</id>
-    <published>2013-12-30T06:59:28.000Z</published>
-    <updated>2014-06-23T09:49:04.000Z</updated>
-    <content type="html"><![CDATA[<p>Affalé au sol,<br>le cerf-volant,<br>était sans âme.</p>
-<p>Kubonta</p>
-]]></content>
-    
-    
-      <category term="français" scheme="http://vfarcy.github.io/hexoskelet/categories/francais/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[Kanban in action]]></title>
-    <link href="http://vfarcy.github.io/hexoskelet/2013/10/05/kanban-in-action/"/>
-    <id>http://vfarcy.github.io/hexoskelet/2013/10/05/kanban-in-action/</id>
-    <published>2013-10-05T14:08:45.000Z</published>
-    <updated>2014-06-23T09:49:04.000Z</updated>
-    <content type="html"><![CDATA[<p>These slides are some examples on how to use and create a workable Kanbanboard. A new book based on this presentation, and much more, is coming soon.</p>
-<p>Stop starting, start finishing !</p>
-<p><iframe src="http://www.slideshare.net/slideshow/embed_code/3576466" width="640" height="480" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;border-width:1px 1px 0;margin-bottom:5px" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="https://fr.slideshare.net/marcusoftnet/kanbanboards" title="Kanbanboards" target="_blank" rel="external">Kanbanboards</a> </strong> from <strong><a href="http://www.slideshare.net/marcusoftnet" target="_blank" rel="external">Marcus Hammarberg</a></strong> </div></p>
-]]></content>
-    
-    
-      <category term="english" scheme="http://vfarcy.github.io/hexoskelet/categories/english/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[Le chat et le soleil]]></title>
-    <link href="http://vfarcy.github.io/hexoskelet/2013/09/08/le-chat/"/>
-    <id>http://vfarcy.github.io/hexoskelet/2013/09/08/le-chat/</id>
-    <published>2013-09-08T16:26:27.000Z</published>
-    <updated>2014-06-23T09:49:04.000Z</updated>
-    <content type="html"><![CDATA[<p>Le chat ouvrit les yeux<br>Le soleil y entra.<br>Le chat ferma les yeux<br>Le soleil y resta.</p>
-<p>Voilà pourquoi le soir,<br>Quand le chat se réveille,<br>J’aperçois dans le noir<br>Deux morceaux de soleil.</p>
-<p>Maurice Carême</p>
-]]></content>
-    
-    
-      <category term="français" scheme="http://vfarcy.github.io/hexoskelet/categories/francais/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[Etes-vous multitâches ? quelques mots suivis d'un test]]></title>
-    <link href="http://vfarcy.github.io/hexoskelet/2013/08/17/etes-vous-multitaches-quelques-mots-suivis-dun-test/"/>
-    <id>http://vfarcy.github.io/hexoskelet/2013/08/17/etes-vous-multitaches-quelques-mots-suivis-dun-test/</id>
-    <published>2013-08-17T20:42:04.000Z</published>
-    <updated>2014-06-23T09:49:04.000Z</updated>
-    <content type="html"><![CDATA[<p>Voici un billet librement traduit et adapté d’un post original de Léo Babauta : “<a href="http://zenhabits.net/how-not-to-multitask-work-simpler-and/" title="How NOT to multitask ?" target="_blank" rel="external">How NOT to Multitask – Work Simpler and Saner</a>“ suivi d’un petit test pour vous essayer au multitâche.</p>
-<p>Vous travaillez déjà sur deux projets en même temps lorsque votre patron place deux nouvelles demandes sur votre bureau. Vous êtes au téléphone quand trois nouveaux emails arrivent. Vous essayez de partir à temps pour passer par l’épicerie sur le chemin du retour. Votre smartphone sonne, votre collègue vous interpelle en chemin et vous demande une info, votre boîte mail est pleine de 100 messages.</p>
-<p>Vous passez de tâches en tâches à la vitesse d’un jongleur de cirque. </p>
-<p>Félicitations, vous êtes “multitâches”.</p>
-<p>Nous sommes bombardés d’informations et de sollicitations permanentes. C’est en partie pour cette raison que la méthode GTD est si populaire aujourd’hui – c’est un système conçu pour prendre des décisions rapidement et pour piloter les réponses aux demandes quotidiennes. Mais même si vous utilisez GTD, vous êtes parfois si débordés que le système tombe à l’eau.</p>
-<p>Voilà quelques astuces pour travailler le plus efficacement possible tout en préservant sa santé mentale.</p>
-<p>Tout d’abord créez des listes par contexte de choses à faire (par exemple les appels, l’ordinateur, les courses, la maison, les choses en attente, etc.).</p>
-<p>Ayez un outil de capture (comme un bloc-notes) pour prendre des notes instantanées sur ce qui doit être fait.</p>
-<p>Ayez une boîte de réception physique et email (avec le moins de boîtes de réception possibles) afin que toutes les choses qui arrivent soient réunies en un seul endroit (une pour le papier, une pour l’électronique).</p>
-<p>Le matin, réalisez vos tâches les plus importantes. Ne faites rien d’autre tant qu’elles ne sont pas achevées. Accordez-vous une courte pause, et ensuite commencez l’autre tâche plus importante. Si vous pouvez en finir 2-3 le matin, le reste de la journée est du bonus.</p>
-<p>Quand vous travaillez sur une tâche, n’acceptez aucune distraction interruptive. Coupez les emails, et Internet si c’est possible. Éteignez votre portable. Essayez de ne pas répondre au téléphone. Concentrez-vous sur cette seule tâche, et essayez de la finir en restant concentré.</p>
-<p>Si vous ressentez l’envie de vérifier votre boîte mail ou de basculer sur une autre tâche, arrêtez-vous. Respirez profondément. Re-concentrez vous et revenez à votre tâche.</p>
-<p>Si d’autres choses arrivent pendant que vous travaillez, mettez les dans votre boîte de réception, ou prenez une note dans votre système de capture. Revenez à cette tâche plus tard.</p>
-<p>De temps en temps, quand vous avez fini une tâche, traitez vos notes et votre boîte de réception, ajoutez les tâches dans votre liste de choses à faire et redéfinissez votre agenda si nécessaire. Traitez vos emails et vos autres boîtes de réception à des intervalles réguliers et prédéterminés.</p>
-<p>Il y a des moments où les interruptions sont si urgentes que vous ne pouvez pas les mettre de coté. Dans ce cas, essayez d’écrire une note de contexte sur la tâche en cours, et mettez tous les documents et toutes les notes de cette tâche ensemble (peut-être dans un dossier “action” ou un dossier de projet). Ensuite, quand vous revenez à cette tâche, vous pouvez ressortir la note de votre dossier et reprendre où vous en étiez.</p>
-<p>Prenez des respirations profondes, étirez-vous, et prenez des pauses de temps en temps. Profitez de la vie. Allez dehors, et appréciez la nature. Gardez votre esprit sain.</p>
-<p>En attendant, voici comme promis le test d’évaluation :</p>
-<div id="open-site-infographic" style="width:450px;"><iframe id="multitask-info" name="multitask-info" src="http://open-site.org/blog/the-multitask-test/game.php" frameborder="0" height="450" width="450" style="height: 450px;"></iframe><div class="created-by" style="text-align:right; font-size:12px;">Created by <a href="http://open-site.org/blog/the-multitask-test" target="_blank" rel="external">http://Open-Site.org</a></div></div>]]></content>
-    
-    
-      <category term="français" scheme="http://vfarcy.github.io/hexoskelet/categories/francais/"/>
-    
-  </entry>
-  
-  <entry>
     <title><![CDATA[Pourquoi est-il impossible de rembourser un prêt ?]]></title>
     <link href="http://vfarcy.github.io/hexoskelet/2013/08/16/pourquoi-est-il-impossible-de-rembourser-un-pret/"/>
     <id>http://vfarcy.github.io/hexoskelet/2013/08/16/pourquoi-est-il-impossible-de-rembourser-un-pret/</id>
@@ -349,42 +205,6 @@
 <p><strong>Ce que ne nous enseigne pas cette histoire</strong></p>
 <p>Cette histoire ne dit rien sur le processus de création monétaire. Henry Ford déclarait à ce sujet: «It is well enough that people of the nation do not understand our banking and monetary system, for if they did, I believe there would be a revolution before tomorrow morning. » (Il est bon que les gens ne comprennent pas notre système bancaire et monétaire, car si c’était le cas, je crois qu’il y aurait une révolution avant demain matin. » ).</p>
 <p>Nous y reviendrons dans un prochain billet.</p>
-]]></content>
-    
-    
-      <category term="français" scheme="http://vfarcy.github.io/hexoskelet/categories/francais/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[Quel est le bon pricing pour un service en ligne ?]]></title>
-    <link href="http://vfarcy.github.io/hexoskelet/2013/08/12/quel-est-le-bon-pricing-pour-un-service-en-ligne/"/>
-    <id>http://vfarcy.github.io/hexoskelet/2013/08/12/quel-est-le-bon-pricing-pour-un-service-en-ligne/</id>
-    <published>2013-08-12T06:39:35.000Z</published>
-    <updated>2014-06-23T09:49:04.000Z</updated>
-    <content type="html"><![CDATA[<p>La startup propose en ligne un produit innovant, par exemple une plate-forme révolutionnaire d’apprentissage des langues.</p>
-<p>Un premier utilisateur y souscrit, puis un deuxième.</p>
-<p>Le produit devient populaire, les clients affluent.</p>
-<p>La popularité de la plate-forme attire des investisseurs.</p>
-<p>Les fondateurs vendent.</p>
-<p>Le repreneur repense le produit.</p>
-<p>Les clients historiques s’estiment floués : ils ont payé mais ne retrouvent plus leur produit. Ils partent en quête d’une alternative.</p>
-<p>Tous les projets sont différents, mais ce patern est très fréquent, au grand dam des premiers utilisateurs qui ont fait confiance et soutenu le développement selon un modèle freemium-premium :</p>
-<ul>
-<li>un palier gratuit, limité à quelques fonctionnalités, (j’apprends 100 mots)</li>
-<li>un premier palier, pour un coût intermédiaire, avec des fonctionnalités supplémentaires, (j’apprends 1500 mots mais avec du contenu qui m’intéresse)</li>
-<li>un dernier palier, pour un coût maximal, avec toutes les fonctionnalités (j’apprends un nombre illimité de mots, avec du contenu qui m’intéresse et j’ai accès en plus à une version mobile).<br>Le client souhaite bénéficier d’un produit sur le long terme tandis que le fournisseur souhaite construire une relation de confiance durable.</li>
-</ul>
-<p>Existe t’il une alternative au modèle freemium-premium dominant ? Comment facturer autrement ? Selon quel modèle ?</p>
-<p>Je préconise d’indexer le prix sur le nombre d’utilisateurs. On facturerait par exemple 0,001 fois le nombre d’utilisateurs à chaque nouvel utilisateur, quitte à revoir régulièrement la formule pour ne pas décourager le 100 000ième client qui devrait débourser 100€. Pour ne pas rester sur une indexation linéaire, on pourrait choisir de baisser le facteur multiplicatif à partir de la N ième souscription, ou alors d’aplatir la courbe en passant à une facturation logarithmique (en gros, imaginez la trajectoire d’un caillou que vous lancez et qui continue de monter légèrement quand il atteint son point haut).</p>
-<p>Le principe m’apparaît séduisant. Voyons en quelques aspects, du point de vue du fournisseur de service et du client.</p>
-<p><strong><strong>Simplicité.</strong></strong> Le prix est unique. Il n’y a pas de tableau compliqué, ni de colonnes et de lignes à comparer. C’est simple à écrire et aussi simple à lire : actuellement, le prix, payé une seule fois, est de X € pour un accès illimité à vie.</p>
-<p><strong>Marketing.</strong> Plus vous prenez de temps pour vous inscrire, plus cela vous coûte quand vous souscrivez. En tant que fournisseur, vous créez dans la tête de vos prospects un sentiment d’urgence : “Houlala, je dois m’inscrire vite avant que le prix ne s’envole”.</p>
-<p><strong>Communauté.</strong> Constitution d’un socle d’utilisateurs early adopteurs de confiance et développement d’un sentiment d’appartenance à un groupe actif. Implication de cette communauté dans le développement du produit (feedback régulier).</p>
-<p><strong>Scalabilité.</strong> Les ressources financières augmentent au rythme des nouveaux utilisateurs, de quoi maintenir une qualité de service constante.</p>
-<p><strong>Paiement unique.</strong> Il me semble que les utilisateurs sont plus enclins à payer une fois une somme raisonnable plutôt que de souscrire à des multiples paiements récurrents, même plus réduits. En tant que fournisseur, vous ne vous privez pas pour autant des revenus récurrents. Les nouveaux clients prennent “le train en marche” et contribuent “à leur hauteur” au financement de la bonne marche de la plate-forme.</p>
-<p>Je n’ai probablement pas couvert tous les aspects, mais cette manière de facturer m’apparaît pertinente. Elle n’est peut être pas adaptée à tous les produits, mais je suis étonné qu’elle ne soit pas plus répandue sur le Web.</p>
-<p>Aurais-je loupé quelque-chose ?</p>
 ]]></content>
     
     
@@ -534,32 +354,6 @@
   </entry>
   
   <entry>
-    <title><![CDATA[Stop writing code, talk to a customer first]]></title>
-    <link href="http://vfarcy.github.io/hexoskelet/2013/07/21/stop-writing-code-talk-to-a-customer-first/"/>
-    <id>http://vfarcy.github.io/hexoskelet/2013/07/21/stop-writing-code-talk-to-a-customer-first/</id>
-    <published>2013-07-21T08:00:38.000Z</published>
-    <updated>2014-06-23T09:49:04.000Z</updated>
-    <content type="html"><![CDATA[<p>I’m very happy to see engineering school encouraging entrepreneurship. I regularly meet students on the verge of developing their own business. Most of the time, they have an idea and worry about investment, focus on technical issues, struggle to find a place to work, write code in their garage or build things in their cellar.</p>
-<p>I often raise their awareness regarding customer and product development, something they are not always accustomed to. Although the long-term benefits have not yet been proved by scientists, it seems like natural to them that bringing a unique solution to someone else’s problem is kind of valuable help. I sum it up that way :</p>
-<ul>
-<li>Identify your perfect customers, focus on them and on nothing else, stop writing code, talk to them first.</li>
-<li>Make investors feel like the rocket is taking of, with or without them. Investment isn’t success.</li>
-<li>Talk about your idea, spread it around the world and thrive on feedback. If you don’t want to share your idea, it’s probably a bad one because someone else on earth is able to make it happen now, so you don’t have any competitive avantage.</li>
-<li>Don’t worry too much about engineering, worry about getting users and customers first.</li>
-<li>You’re running a marathon, not a sprint. It’s all about endurance. Focus on designing a good and valuable product which truly helps your customer.</li>
-<li>Don’t read to much books, do real business.</li>
-<li>Strengthen the relationship with your co-founders. Don’t go to bed angry. Be honest and open to each other.</li>
-<li>Do one thing every day that scares you. Think about 3 things you need to do in the next 6 months to give your start-up the best chance of long-term success.</li>
-<li>Relax, you gonna make mistakes, business is a game, even if it is serious.<br>&nbsp;</li>
-</ul>
-]]></content>
-    
-    
-      <category term="english" scheme="http://vfarcy.github.io/hexoskelet/categories/english/"/>
-    
-  </entry>
-  
-  <entry>
     <title><![CDATA[Finalement, une startup, c'est quoi ?]]></title>
     <link href="http://vfarcy.github.io/hexoskelet/2013/07/17/finalement-une-startup-cest-quoi/"/>
     <id>http://vfarcy.github.io/hexoskelet/2013/07/17/finalement-une-startup-cest-quoi/</id>
@@ -574,6 +368,249 @@
     
     
       <category term="français" scheme="http://vfarcy.github.io/hexoskelet/categories/francais/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Nettoyage]]></title>
+    <link href="http://vfarcy.github.io/hexoskelet/2013/07/07/nettoyage/"/>
+    <id>http://vfarcy.github.io/hexoskelet/2013/07/07/nettoyage/</id>
+    <published>2013-07-07T08:09:44.000Z</published>
+    <updated>2014-06-23T09:49:04.000Z</updated>
+    <content type="html"><![CDATA[<p>Retour au minimalisme avec la mise en oeuvre du thème libre “Zen habits” de Léo Babauta.</p>
+<p>La version modifiée par Mike Walsh ne fonctionnait pas sur mon Wordpress. J’ai modifié quelques lignes de PHP et tout est rentré dans l’ordre. Le package complet, <a href="https://github.com/vfarcy/zh2plusplus" title="zh2++" target="_blank" rel="external">zh2plusplus</a>, est fonctionnel et disponible sur <a href="https://github.com/vfarcy/zh2plusplus" title="zh2++" target="_blank" rel="external">Github</a>. Il est libre de tous droits, prêt à être installé par qui le souhaite.</p>
+<p>Si vous êtes intéressés, pensez à lire le README sur Github pour connaître les adaptations nécessaires; essentiellement une page Wordpress à créer pour accéder aux billets archivés, rien de bien compliqué.</p>
+<p>Le 404 renvoie sur un Haïku, j’adore.</p>
+<p>&nbsp;</p>
+]]></content>
+    
+    
+      <category term="français" scheme="http://vfarcy.github.io/hexoskelet/categories/francais/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Lingocracy : Improve a foreign language while reading any news on the web (french inside)]]></title>
+    <link href="http://vfarcy.github.io/hexoskelet/2013/04/13/lingocraty-improve-a-foreign-language-while-reading-any-news-on-the-web-french-inside/"/>
+    <id>http://vfarcy.github.io/hexoskelet/2013/04/13/lingocraty-improve-a-foreign-language-while-reading-any-news-on-the-web-french-inside/</id>
+    <published>2013-04-13T13:09:57.000Z</published>
+    <updated>2014-06-23T09:49:04.000Z</updated>
+    <content type="html"><![CDATA[<p>Max et Yan se rencontrent à Shanghai pendant leurs études. Rapidement, ils découvrent qu’ils aiment les langues étrangères et font le même constat :  une approche innovante est nécessaire pour l’apprentissage des langues. Polyglottes et visiteurs du monde, il connaissent bien pour les avoir vécues les limites des approches d’apprentissages traditionnelles  : des sujets pédagogiques généralistes, de la grammaires, du par cœur, des listes de verbes à ne pas en finir.</p>
+<p>Cette recette, Max aussi l’a vécue. On lui demande de l’appliquer lorsqu’il apprend le Chinois <del>à Shanghaï</del> en Belgique.  Pas vraiment emballé, il décide alors de créer sa propre méthode. Sa première décision : faire l’école buissonnière, le temps de réfléchir à une approche qui lui convienne. Par chance, il trouve rapidement la bonne réponse. La bonne réponse, c’est la méthode qui fonctionne pour lui. Il apprend par lui même, pendant un an, en utilisant des ressources qui le passionnent. Le jour de l’examen, à l’étonnement quasi général, Max termine en pole position et est récompensé par un an d’études supplémentaires, tous frais payés à l’université Fudan, une des plus anciennes et des plus prestigieuses universités de Chine !</p>
+<p>Pendant ce temps, j’écris de mon côté sur 2570words.com :</p>
+<p><em>“A l’heure ou se pose la question de savoir si le web rend plus bête, ou au contraire, s’il développe une nouvelle forme d’intelligence, 2570words.com prend à contre pied les modes d’apprentissages traditionnels des langues étrangères. Il propose une manière différente, plus fun, plus connectée, plus ouverte et plus personnelle de vivre cette formidable expérience. 2570words.com est le point d’entrée d’une pédagogie non conventionnelle, d’astuces, de méthodes simples et futées. Si vous ne pouvez toujours pas passer une commande au restaurant, regarder un film sans sous-titres, avoir une conversation dans la rue après avoir <em>passé des années à apprendre  avec les méthodes clasiques, alors 2570words.com est probablement la solution.”</em></em></p>
+<p>Dans la foulée, je lançais alors une version expérimentale quasi identique, je l’apprendrai bien plus tard, à ce que Yan et Max développaient de leur côté.</p>
+<p>L’idée de Max, Yan et la mienne est simple : on apprend en se faisant plaisir, sur la base de la lecture traitant de sujets qui nous passionnent, ou a minima, qui nous intéressent.</p>
+<p>Il y a trois mois, l’occasion m’est donnée de participer à la sélection des 12 startups qui rejoindrons pendant 6 mois le camping au Palais Brongniart. Lors des premières présentations, je suis très surpris lorsque Yan et Max présentent Lingocracy, le résultat de leur travail. Lingocracy et 2570words.com sont des frères jumeaux  Ils partent du même constat et proposent la même approche autour du plaisir d’apprendre.</p>
+<p>Aux côtés de 11 startups en coopétition, l’équipe de Lingocracy est finalement retenue par le jury parmi les 190 autres qui postulent.</p>
+<p>Yan et Max me proposent alors de les accompagner dans la maturation de leur projet. J’accepte immédiatement avec plaisir. Nous convenons de nous voir une fois par semaine pour avancer ensemble. Notre troisième meeting se tenait hier. Nous avons notamment passé en revue les retours des utilisateurs, plus nombreux depuis lundi dernier, et priorisé les éléments du backlog pour les futures releases.</p>
+<p>Si l’aventure vous intéresse, il y a une place de libre dans l’équipe pour travailler sur le front end. Au menu, javascipt (angularjs), HTML, CSS, responsive design and Co. Profitez-en, il n’y en aura pas pour tout le monde, seuls les premiers pourront être servis, et c’est un vrai délice !</p>
+<p>Oups, encore un dernier point.</p>
+<p>Au delà des compétences techniques, si vous n’êtes pas intéressés par les langues étrangères, si vous n’êtes pas curieux, si vous ignorez ce que signifie “connecting the dots”, alors travaillez ces sujets avant de frapper à la porte :-)</p>
+<p>Oups, encore un dernier dernier point.</p>
+<p>Oui, c’est rémunéré (mais bon, c’est une startup)</p>
+<p>Pour en savoir plus :</p>
+<ul>
+<li>Lingocracy : <a href="http://www.lingocracy.com/" target="_blank" rel="external">http://www.lingocracy.com/</a> (aucun compte n’est nécessaire pour essayer)</li>
+<li>Faites entendre votre voix : <a href="https://lingocracy.uservoice.com/" target="_blank" rel="external">https://lingocracy.uservoice.com/</a><br>&nbsp;</li>
+</ul>
+<!--cforms name="Vérification"-->]]></content>
+    
+    
+      <category term="français" scheme="http://vfarcy.github.io/hexoskelet/categories/francais/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Le bitcoin est-il un poisson d'avril ?]]></title>
+    <link href="http://vfarcy.github.io/hexoskelet/2013/04/01/le-bitcoin-est-il-un-poisson-davril/"/>
+    <id>http://vfarcy.github.io/hexoskelet/2013/04/01/le-bitcoin-est-il-un-poisson-davril/</id>
+    <published>2013-04-01T15:11:32.000Z</published>
+    <updated>2014-06-23T09:49:04.000Z</updated>
+    <content type="html"><![CDATA[<p>Le bitcoin est une forme de monnaie virtuelle utilisée pour acheter des biens et des services en ligne. C’est un phénomène étrange et supergeeky qui associe le peer-to-peer et la cryptographie.</p>
+<p>Aujourd’hui, 17h30, il y a 10 978 825 Bitcoins en circulation. (C’est très facile d’être précis avec une monnaie numérique). Avec une capitalisation de 1 163 645 662 USD (montent légèrement supérieur à ce que facebook a déboursé pour acheter Instagram), la Bitcoin monnaie n’est pas encore sur le point de remplacer les monnaies officielles. </p>
+<p>Prenons pourtant un instant et comparons paypal et Bitcoin. N’importe qui peut implémenter un système PayPal sur un serveur en quelques clics et faire transiter un flux financier jusqu’à sa banque. Avec Bitcoin, c’est techniquement aussi facile, mais la différence est qu’il n’y a pas de banque. Le système est entièrement décentralisé, le code informatique qui régit les échanges est ouvert et le journal des transactions est distribué publiquement.</p>
+<p>Le Bitcoin est-il alors une monnaie d’avenir à prendre au sérieux ? N’est ce pas plutôt une mauvaise blague (un poisson) à visée spéculative qui viserait à parodier une économie mondiale chahutée ? Son fondateur, connu sous le pseudonyme de Satoshi Nakamoto, reste inconnu ? Pourquoi ? </p>
+<p>Je n’y vois pas là une blague, mais plutôt matière à réflexion.</p>
+<p>La technologie utilisée est complètement fonctionnelle depuis plus de quatre ans et le système fonctionne à merveille. Pour preuve, ce pic des recherches Google concernant le terme “bitcoin” que l’on ne manque pas d’associer à la récente crise Chypriote, comme si la monnaie virtuelle était une monnaie refuge dans ce monde si réel où l’on observe que les requêtes les plus nombreuses proviennent de Russie, nation très impliquée dans l’économie Chypriote.</p>
+<script type="text/javascript" src="//www.google.fr/trends/embed.js?hl=fr&q=bitcoin&cmpt=date&content=1&cid=TIMESERIES_GRAPH_0&export=5&w=500&h=330"></script>
+
+<script type="text/javascript" src="//www.google.fr/trends/embed.js?hl=fr&q=bitcoin&cmpt=date&content=1&cid=GEO_MAP_0_1&export=5&w=500&h=530"></script>
+
+<p>L’émergence d’une offre de monnaie virtuelle et globale au-delà de la portée et de contrôle de tout gouvernement semble donc bien réelle. Tant que l’Internet reste disponible, Bitcoin continue de se répandre selon un rythme programmé, pas trop rapidemenet pour ne pas dévaloriser la monnaie, mais pas trop lentement non plus pour pouvoir maintenir la liquidité de ce marché en devenir.</p>
+<p>Quant à savoir la motivation et la finalité de cette belle horlogerie, à supposer qu’elles existent, je sèche !</p>
+<!--cforms name="Vérification"-->]]></content>
+    
+    
+      <category term="français" scheme="http://vfarcy.github.io/hexoskelet/categories/francais/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Démonstration : 12 = 12 - 7 - 3 ?]]></title>
+    <link href="http://vfarcy.github.io/hexoskelet/2013/03/15/demonstration-12-12-7-3/"/>
+    <id>http://vfarcy.github.io/hexoskelet/2013/03/15/demonstration-12-12-7-3/</id>
+    <published>2013-03-15T18:15:56.000Z</published>
+    <updated>2014-06-23T09:49:04.000Z</updated>
+    <content type="html"><![CDATA[<p>L’Iphone que je porte à la ceinture vibre. J’y porte la main, le sors de son étuis et lis le mail que je viens de recevoir, le temps de comprendre que je vais griller le  feu rouge.</p>
+<p>Je jette un œil dans le rétro central. La voiture qui me suit est suffisamment loin derrière pour me laisser le temps de freiner sans encombre.</p>
+<p>Sans être brutal, le freinage est soutenu. Mon véhicule est immobilisé, mais les trois quarts empiètent sur la ligne du feu rouge. Il reste suffisamment de distance derrière pour reculer et laisser ainsi un très confortable passage aux voitures qui viennent à ma gauche.</p>
+<p>J’enclenche la marche arrière, étends le bras droit sur le siège droit et tourne la tête en direction de la voiture qui me suit. De nouveau à l’arrêt, je tourne la tête dans le sens de la marche, prêt à repartir lorsque le feu passera au vert.</p>
+<p>Et là …</p>
+<p>Je découvre, surgie de la gauche, la voiture coiffée d’un gyrophare bleu. Elle est immobilisée en travers de la route et me barre le passage.</p>
+<p>Depuis la lecture du mail malheureux, j’ai gardé l’Iphone en main. Je le laisse négligemment tomber au pied du levier de vitesse quand je découvre l’agent de police, droit comme un I au niveau de la portière gauche.</p>
+<p>J’attends un salut qui ne vient pas. Il reste de marbre et me fixe des yeux. J’abaisse la vitre.</p>
+<ul>
+<li>« Vous savez pourquoi nous vous arrêtons ? »</li>
+<li>« Oui, à cause du feu rouge et du téléphone. J’attends un coup de fil important, le téléphone a sonné, je l’ai saisi, le temps de m’apercevoir que le feu était rouge, puis j’ai stoppé mon véhicule. »</li>
+<li>«Vous venez de commettre une double infraction. Elle va vous coûter 7 points : 3 pour le téléphone et 4 pour le feu rouge. Garez-vous sur la droite et coupez le moteur »<br>Je pense : quel double abruti je suis !</li>
+</ul>
+<p>D’abord, tous les mails peuvent attendre d’être lus. Je le sais. C’est même une règle de vie que je me suis fixée. Ensuite, pourquoi donc m’être embarqué dans cette justification foireuse du coup de fil important alors que que je viens de consulter un mail !</p>
+<p>La bourde est commise. C’est désagréable, mais c’est ainsi. Je reviens sur terre, ici et maintenant.</p>
+<p>J’ai une seule certitude : ce qui vient de se produire. La suite reste à construire. Je n’exprimerai aucune supposition, j’aurai une parole impeccable face à ce grand bonhomme visiblement pas bavard. Je serai simple, factuel, précis et prêt à payer.</p>
+<p>Le fonctionnaire de police revient à ma hauteur alors que je viens juste de couper le moteur.</p>
+<ul>
+<li>« Vous avez votre permis de conduire ?»</li>
+<li>« Oui »<br>J’ouvre mon portefeuille est lui tend le formulaire rose.</li>
+</ul>
+<p>Il le saisi et entreprend de l’examiner sous toutes ses coutures. Ce faisant, il me rappelle sans me regarder, sur un ton fataliste et donneur de leçons, que je vais perdre 7 points, 4 et 3.</p>
+<p>J’attends l’annonce du montant de la prune. Il tourne le papier en mains, le retourne et le tourne encore, le déplie puis le lit. Pendant ce temps, je fixe son visage. Quelle expression va-t-il prendre pour m’annoncer la douloureuse ?</p>
+<p>Je discerne un sourire naissant. Je ne me l’explique pas. Il s’adresse à sa collègue venue le rejoindre :</p>
+<ul>
+<li>« Son permis est écrit à la main, on pourrait croire que c’est un faux ».<br>Je ne dis rien. Suis-je tombé sur un type vraiment pas comique qui va me chercher des noix là où il n’y en a pas ? 7 points en moins ne suffisent pas ?</li>
+</ul>
+<p>J’attends.</p>
+<p>Poursuivant sa lecture du document, il continue de s’adresser à sa collègue et reprend mots pour mots ce qu’il vient de dire, mais en complétant :</p>
+<ul>
+<li>« Il est écrit à la main, on pourrait croire que c’est un faux. J’ai le même ».</li>
+<li>« J’ai le même ».</li>
+<li>« Quand vous a t’il été délivré ? Dans la Somme ? » me demande t’il ?<br>Je réponds d’un simple « oui ».</li>
+</ul>
+<p>Puis il continue sur un ton exclamatif .</p>
+<ul>
+<li><p>« Il a été délivré il y a 28 ans, dans la Somme ! , et il est écrit à la main, j’ai le même (se tournant vers sa collègue).»<br>Je l’ai en face de moi depuis 3 minutes maintenant. Où veut-il en venir ? Ne serait’il pas Picard lui aussi ? Abbeville n’est pas si connue que ça, connaîtrait-il ? Serait-il Abbevillois ? Est-il proche de moi en âge ? Serait-ce possible qu’il soit un copain d’enfance ?</p>
+</li>
+<li><p>« Vous l’avez passé à Abbeville ? »<br>Constant, je réponds du même simple « oui » et je tente « et vous ? »</p>
+</li>
+</ul>
+<p>Il ne me répond pas et se tourne avec sa collègue :</p>
+<ul>
+<li><p>« Que faisons-nous ? »<br>Elle ne répond rien.</p>
+</li>
+<li><p>«Nous ne sommes pas là pour la circulation, nous sommes là pour un cambriolage. Votre infraction n’est pas franche. Combien vous reste-t’il de points ? »</p>
+</li>
+<li>« 12 »</li>
+<li>« Allez-y, et faite attention, où allez-vous ? »</li>
+<li>“Chez moi, merci, au revoir”<br>&nbsp;</li>
+</ul>
+<!--cforms name="Vérification"-->]]></content>
+    
+    
+      <category term="français" scheme="http://vfarcy.github.io/hexoskelet/categories/francais/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[The first round of the selection of Le Camping season 4 is over]]></title>
+    <link href="http://vfarcy.github.io/hexoskelet/2013/02/10/the-first-round-of-the-selection-of-le-camping-season-4-is-over/"/>
+    <id>http://vfarcy.github.io/hexoskelet/2013/02/10/the-first-round-of-the-selection-of-le-camping-season-4-is-over/</id>
+    <published>2013-02-10T09:59:19.000Z</published>
+    <updated>2014-06-23T09:49:04.000Z</updated>
+    <content type="html"><![CDATA[<p>57 startups from the 170 who have submitted their applications have been selected.</p>
+<p>Our mission, now, is to spot the best 25 startups. For that, the Google hangout interviews that will start tomorrow are the perfect occasion to find out more about the teams, the ideas, the products, to double-check if all the founders are able to attend the program from beginning to end, to challenge their motivation, their spirit and their ability to show their passion for their product.</p>
+<p>Le Camping kept the criteria used for the first round: a complementary team with an innovative and disruptive product or technology.</p>
+<p>Along with 4 others mentors, for an afternoon, I have been assigned as an evaluator for 7 startups :</p>
+<ul>
+<li>Lingocracy</li>
+<li>The Faubourg</li>
+<li>Sharenity</li>
+<li>Znapp.it</li>
+<li>Popp!</li>
+<li>Blackbird</li>
+<li>LearningShelter<br>The process will be the same for each interview : a 5 minutes pitch followed by a 10 minutes discussion. English will be used when an international mentor is present. We won’t use the 6 stars system notation anymore. We are asked to show our feeling and urged to imagine we’re gonna invest in those startups. Finally, we will have to say a YES or a NO and leave a comment to explain our decision to help Le Camping to choose the 25 winners for the next phase.</li>
+</ul>
+<p>Stay tuned …</p>
+<p>&nbsp;</p>
+<!--cforms name="Vérification in english"-->]]></content>
+    
+    
+      <category term="english" scheme="http://vfarcy.github.io/hexoskelet/categories/english/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Behind the scenes of le camping season 4]]></title>
+    <link href="http://vfarcy.github.io/hexoskelet/2013/01/25/behind-the-scenes-of-le-camping-season-4/"/>
+    <id>http://vfarcy.github.io/hexoskelet/2013/01/25/behind-the-scenes-of-le-camping-season-4/</id>
+    <published>2013-01-25T21:20:36.000Z</published>
+    <updated>2014-06-23T09:49:04.000Z</updated>
+    <content type="html"><![CDATA[<p>Do you know Le Camping ?</p>
+<p>As part of Silicon Sentier, le camping brings to start-ups an intense, collaborative and ambitions program. It participates in the emergence of a highly innovative ecosystem in France.</p>
+<p>Le Camping opened applications for Season 4 about 40 days ago. During this application period, many startups came to Le Camping to learn more about the program and experienced the environment that makes it so unique. About 100 entrepreneurs came to attend the Insiders Sessions that have been going on since December.</p>
+<p>Today, I’m very happy to have been made an Evaluator of Le Camping Season 4 to evaluate 8 applications.</p>
+<p>Phase 1 is scheduled from January 22th to February 5th.Thirty of Le Camping’s mentors and experts, and also Campers from seasons 1, 2 and 3, are assigned relevant applications based on our expertise and skills. Many are entrepreneurs, some are investors and others are experts in a particular field. This wide variety of skills makes for an excellent panel of evaluators.</p>
+<p>Each application is reviewed by at least 3 evaluators and rated on a 6-star system based on 6 main criteria:</p>
+<ul>
+<li>Level of  innovation,</li>
+<li>Team,</li>
+<li>Social proof,</li>
+<li>Technology,</li>
+<li>Ability to gain traction,</li>
+<li>Product.<br>We, as evaluators, will add comments for the teams in order to provide them feedbacks.</li>
+</ul>
+<p>Phase 2 of the selection process will start in 10 days. Stay tuned.</p>
+<p>&nbsp;</p>
+<!--cforms name="Vérification in english"-->]]></content>
+    
+    
+      <category term="english" scheme="http://vfarcy.github.io/hexoskelet/categories/english/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Nexus 7 troubleshooting : is it just a matter of magnetic snap case ?]]></title>
+    <link href="http://vfarcy.github.io/hexoskelet/2013/01/13/is-it-just-a-matter-of-case/"/>
+    <id>http://vfarcy.github.io/hexoskelet/2013/01/13/is-it-just-a-matter-of-case/</id>
+    <published>2013-01-13T12:07:32.000Z</published>
+    <updated>2014-06-23T09:49:04.000Z</updated>
+    <content type="html"><![CDATA[<p>I <a href="http://farcy.me/blog/dear-larry-dear-tim-will-you-work-together" title="Dear Larry, dear Tim, will you work together ?" target="_blank" rel="external">told you</a> recently about my Nexus 7 troubleshooting when connected to the iPhone.</p>
+<p>I explained that the tablet randomly flashed,brought me back to the slide lock screen, restarted,and went well for a short time until the screen locked again.</p>
+<p>Weird indeed.</p>
+<p>While waiting for Larry and Tim’s response, I played around with the Nexus and the Iphone, trying to fix the bug.</p>
+<p>I had the tablet in a case when the bug was happening. Don’t tell my why, I eventually took the Nexus out of the case, and … it didn’t do it anymore. I tried to replicate it out of the case, but I wasn’t able to, so I put it back in the case and tried to replicate it, and yes, same issue again.</p>
+<p>Now, I am not 100% sure that it is the case. Could the magnetic built-in power off system of the snap case disturb the device ?</p>
+<p>I will be playing around with it a bit more to see what else causes this issue.</p>
+<p><!--cforms name="Vérification in english"-->Do you remember ?</p>
+]]></content>
+    
+    
+      <category term="english" scheme="http://vfarcy.github.io/hexoskelet/categories/english/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Dear Larry, dear Tim, will you work together ?]]></title>
+    <link href="http://vfarcy.github.io/hexoskelet/2013/01/08/dear-larry-dear-tim-will-you-work-together/"/>
+    <id>http://vfarcy.github.io/hexoskelet/2013/01/08/dear-larry-dear-tim-will-you-work-together/</id>
+    <published>2013-01-08T15:27:58.000Z</published>
+    <updated>2014-06-23T09:49:04.000Z</updated>
+    <content type="html"><![CDATA[<p>Mister Google, I have been using your Google’s Nexus 7 tablet for one month now.</p>
+<p>Many things have been written about your fantastic device. It is a perfect, low-cost, rugged, easy tablet that works for the whole family. So, I won’t write more about your tablet’s technical specifications, how it is the perfect device to travel with, well priced, how it fits very well in hand,the 7” form factor being the perfect size for nomadic life and work. Your hardware really rocks and your open ecosystem realy fits my way of thinking. So open, but so huge too;I’m sometimes not comfortable with how big you are, even if you pretend  that you are not evil.</p>
+<p>Mister Apple, I’m definitely not a fan boy. I feel concerned about your products being produced at low-cost in China, regarding the money I have to spend to acquire it. But honestly, I recognize that I have been satisfied with your IOS mobile phone. I own an old 4S, the first  Apple product I purchased after discussing it a long time with friends of mine whore are among Apple’s early adopters. They convinced me of the simplicity of your products that simply do their job as I expect them to. I finally decided to buy your mobile phone. Months latter, I didn’t upgrade to the Iphone 5. I don’t regret my initial choice which suits my needs,even if some days I’m not really comfortable with the closed nature of your ecosystem. When in doubt, I tell myself it’s probably the cost to pay to have a device than hasn’t crashed once since I got it, wich never happened to your competitor’s products.</p>
+<p>The Nexus 7, alone, works fine, the iPhone as well.</p>
+<p>By the way, my point here, Misters, is to share an issue I encounter since I use my Nexus 7 connected  to my Iphone 4 via a bluetooth connexion.</p>
+<p>Larry and Tim, I know that you in a strong competition to bringing your customers the best experience while developping yourselves. I have activated the bluetooth tether mode on the Nexus  and the Hotspot functionality on the iPhone, and the truth is that it seems that your two devices don’t work well together.</p>
+<p>I struggle hard to reproduce the bug, but I think I eventually succeeded today while <a href="http://lacantine.org/blog/un-espace-de-coworking" title="I" target="_blank" rel="external">co-working @lacantine</a>. So, please take a few seconds to consider this.Here I go :</p>
+<p>I have discovered that the Nexus 7 bugs when it is connected to the Internet through the iPhone’s 3G connexion. The things only happen if the iPhone loses its internet connexion. In such a situation, the Nexus 7 suddenly disconnected from the internet of course, returns to the login screen and I have to enter the password again and again, sometimes 3 times or more. Sometimes, I even have to reboot the tablet to continue the work I was doing before the iPhone lost its 3G signal. The bug isn’t reproduced if I turn the connexion off, which makes me think I have identified the root cause of the bug.</p>
+<p>I don’t know if I am the only one to connect the Nexus 7 with an iPhone 4 over Bluetooth and would be more than happy if you could fix what makes your two devices not function correctly when linked to each other.</p>
+<p>Kind regards,</p>
+<!--cforms name="Vérification in english"-->
+
+<p>&nbsp;</p>
+]]></content>
+    
+    
+      <category term="english" scheme="http://vfarcy.github.io/hexoskelet/categories/english/"/>
     
   </entry>
   
