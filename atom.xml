@@ -1,20 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title><![CDATA[Hexoskelet]]></title>
+  <title><![CDATA[Meandering thoughts...]]></title>
   <subtitle><![CDATA[In a nutshell]]></subtitle>
   <link href="/hexoskelet/atom.xml" rel="self"/>
   <link href="http://vfarcy.github.io/hexoskelet/"/>
-  <updated>2014-06-17T06:22:28.542Z</updated>
+  <updated>2014-06-23T06:19:32.416Z</updated>
   <id>http://vfarcy.github.io/hexoskelet/</id>
+  
+  <author>
+    <name><![CDATA[Valéry Farcy]]></name>
+    
+  </author>
   
   <generator uri="http://zespia.tw/hexo/">Hexo</generator>
   
   <entry>
+    <title><![CDATA[Variations sur un même thème]]></title>
+    <link href="http://vfarcy.github.io/hexoskelet/2014/06/22/Variations-sur-un-meme-theme/"/>
+    <id>http://vfarcy.github.io/hexoskelet/2014/06/22/Variations-sur-un-meme-theme/</id>
+    <published>2014-06-22T16:39:02.000Z</published>
+    <updated>2014-06-23T06:17:52.000Z</updated>
+    <content type="html"><![CDATA[<p>Un blog statique, c’est un peu comme un langage compilé multi-passe en informatique. Vous produisez un contenu, du markdown flavored Github en général, et vous le passez dans une moulinette qui produit du code HMTL / CCS. Le résultat produit est ensuite mis en forme par un thème puis affiché dans le navigateur.</p>
+<p>Après avoir pris en main hexo.io, un générateur de contenu statique développé sous Node.JS, je poursuis sa mise en oeuvre. J’ai remplacé le thème original d’hexo par un thème “tumblr like”. J’en ai testé plusieurs avant de retenir le thème “apollo”. J’ai bien apprécié son rendu, fidèle au thème par défaut proposé sur tumblr. Un apercu est disponible là-bas : <a href="http://joyceim.github.io/" target="_blank" rel="external">http://joyceim.github.io/</a> .</p>
+<p>Petit à petit, j’avance ainsi dans la mise en place de la plate-forme qui va remplacer mon ancien blog propulsé par wordpress. Cette migration me permets de découvrir l’écosystème de Node.js et de laisser derrière moi les technos LAMP vieillissantes.</p>
+]]></content>
+    
+    
+  </entry>
+  
+  <entry>
     <title><![CDATA[Avec un éxant]]></title>
-    <link href="http://vfarcy.github.io/hexoskelet/2014/06/16/avec-un-exant/"/>
-    <id>http://vfarcy.github.io/hexoskelet/2014/06/16/avec-un-exant/</id>
-    <published>2014-06-16T14:35:51.000Z</published>
-    <updated>2014-06-16T15:05:54.000Z</updated>
+    <link href="http://vfarcy.github.io/hexoskelet/2014/06/20/avec-un-exant/"/>
+    <id>http://vfarcy.github.io/hexoskelet/2014/06/20/avec-un-exant/</id>
+    <published>2014-06-20T14:35:51.000Z</published>
+    <updated>2014-06-23T06:07:31.000Z</updated>
     <content type="html"><![CDATA[<h1 id="Apprendre_le_langage_Javascript">Apprendre le langage Javascript</h1>
 <p>Ce livre va vous apprendre les bases de la programmation et Javascript. Que vous soyez un programmeur expérimenté ou pas, ce livre est destiné à tous ceux qui souhaitent apprendre le langage de programmation JavaScript.</p>
 <blockquote>
@@ -50,16 +69,35 @@
 ]]></content>
     
     
+      <category term="thisisatag" scheme="http://vfarcy.github.io/hexoskelet/tags/thisisatag/"/>
+    
   </entry>
   
   <entry>
-    <title><![CDATA[Hello World]]></title>
+    <title><![CDATA[Hello Hexo.io]]></title>
     <link href="http://vfarcy.github.io/hexoskelet/2014/06/16/hello-world/"/>
     <id>http://vfarcy.github.io/hexoskelet/2014/06/16/hello-world/</id>
     <published>2014-06-16T13:34:59.000Z</published>
-    <updated>2014-06-16T13:34:59.000Z</updated>
-    <content type="html"><![CDATA[<p>Welcome to <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="http://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="http://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">trobuleshooting</a> or you can ask me on <a href="https://github.com/tommy351/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
+    <updated>2014-06-23T06:07:31.000Z</updated>
+    <content type="html"><![CDATA[<p>I just installed <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>! This is my very first post. If you are interested in knowing more about this new kind of blog framework, check <a href="http://hexo.io/docs/" target="_blank" rel="external">the documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="http://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">trobuleshooting</a> or you can ask me at <a href="https://twitter.com/VF4rcy" target="_blank" rel="external">@VF4rcy</a>.</p>
 <h2 id="Quick_Start">Quick Start</h2>
+<h3 id="Install_hexo_at_the_global_level">Install hexo at the global level</h3>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre>1
+</pre></td><td class="code"><pre>$ npm install hexo -g
+</pre></td></tr></table></figure>
+
+<h3 id="Build_your_blogging_environment">Build your blogging environment</h3>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre>1
+</pre></td><td class="code"><pre>$ hexo ini &lt;folder&gt;
+</pre></td></tr></table></figure>
+
+<h3 id="Configure__config-yml">Configure _config.yml</h3>
+<p>Edit your [_config.yml file] <a href="http://hexo.io/docs/configuration.html" target="_blank" rel="external">http://hexo.io/docs/configuration.html</a> depending your needs. You can configure most of options here</p>
+<h3 id="Install_the_required_node_modules">Install the required node modules</h3>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre>1
+</pre></td><td class="code"><pre>$ npm install
+</pre></td></tr></table></figure>
+
 <h3 id="Create_a_new_post">Create a new post</h3>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre>1
 </pre></td><td class="code"><pre>$ hexo new <span class="string">"My New Post"</span>
