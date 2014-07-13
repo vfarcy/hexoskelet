@@ -84,12 +84,6 @@ disqus_shortname: wikifarcyme
 theme: apollo
 exclude_generator:
 
-feed:
-    type: atom
-    path: http://feeds.feedburner.com/vfarcy 
-    limit: 20
-
-
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:

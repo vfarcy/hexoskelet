@@ -2,7 +2,7 @@
 menu:
   Home: /hexoskelet
   Archives: /hexoskelet/archives
-rss: /hexoskelet/atom.xml
+rss: http://feeds.feedburner.com/vfarcy
 
 # Content
 excerpt_link: Read More
