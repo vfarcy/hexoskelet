@@ -1,4 +1,6 @@
 title: Hello Hexo.io
+date: 2014-06-18 10:44:49
+tags:
 ---
 I just installed [Hexo](http://hexo.io/)! This is my very first post. If you are interested in knowing more about this new kind of blog framework, check [the documentation](http://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](http://hexo.io/docs/troubleshooting.html) or you can ask me at [@VF4rcy](https://twitter.com/VF4rcy).
 
