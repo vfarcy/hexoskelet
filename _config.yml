@@ -84,10 +84,16 @@ disqus_shortname: wikifarcyme
 theme: apollo
 exclude_generator:
 
+feed:
+    type: atom
+    path: http://feeds.feedburner.com/vfarcy 
+    limit: 20
+
+
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
   type: github
   repository: https://github.com/vfarcy/hexoskelet.git
-  branch: gh-pages
+  branch: gh-pages   
   
