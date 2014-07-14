@@ -1,5 +1,5 @@
 
-vfarcy dot github dot io slash hexoskelet
+blog dot farcy dot me
 ============================
 
 This repository holds my blog which you can visit at blog.farcy.me.
