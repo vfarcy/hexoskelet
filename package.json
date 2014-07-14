@@ -3,6 +3,7 @@
   "version": "2.7.1",
   "private": true,
   "dependencies": {
+    "hexo-generator-cname": "^0.1.1",
     "hexo-generator-feed": "^0.1.2",
     "hexo-generator-sitemap": "^0.1.4",
     "hexo-migrator-wordpress": "^0.1.1",
