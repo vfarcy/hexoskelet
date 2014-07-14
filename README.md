@@ -2,7 +2,7 @@
 vfarcy dot github dot io slash hexoskelet
 ============================
 
-This repository holds my blog which you can visit at vfarcy.github.io/hexoskelet.
+This repository holds my blog which you can visit at blog.farcy.me.
 
 You can type `npm install` at the prompt.
 
