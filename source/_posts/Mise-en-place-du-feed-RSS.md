@@ -10,8 +10,8 @@ Donc, avec Hexo.io, la déclaration de l'adresse du flux RSS s'effectue directem
 ``` 
 # Header
 menu:
-  Home: /hexoskelet
-  Archives: /hexoskelet/archives
+  Home: /
+  Archives: /archives
 rss: http://feeds.feedburner.com/vfarcy?format=xml
 
 # Content
