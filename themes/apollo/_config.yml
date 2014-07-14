@@ -1,7 +1,9 @@
 # Header
 menu:
-  Home: /hexoskelet
-  Archives: /hexoskelet/archives
+#  Home: /hexoskelet
+#  Archives: /hexoskelet/archives
+  Home: /
+  Archives: /archives
 rss: http://feeds.feedburner.com/vfarcy?format=xml
 
 # Content
