@@ -5,7 +5,7 @@ tags:
 
 The first thing you have to do is to create a file `server.js` :
 
-``` js A simple http server
+``` js A simple http server 
 var http = require("http");
 
 http.createServer(function(request, response) {
@@ -13,9 +13,6 @@ http.createServer(function(request, response) {
   response.write("Hello World");
   response.end();
 }).listen(8888);
-}
-
-exports.start = start;
 ```
 
 To run the server, you just have to type `node server.js` at the prompt.  
