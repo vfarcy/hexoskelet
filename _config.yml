@@ -83,8 +83,6 @@ disqus_shortname: wikifarcyme
 # Extensions
 ## Plugins: https://github.com/tommy351/hexo/wiki/Plugins
 ## Themes: https://github.com/tommy351/hexo/wiki/Themes
-plugins:
-- hexo-tag-uml
 theme: apollo
 exclude_generator:
 
