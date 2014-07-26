@@ -6,7 +6,7 @@ tags:
 Welcome to StackEdit!	
 =====================
 
-This is a first blog post written using **StackEdit**. 
+This is a very first blog post written using **StackEdit**. 
 
 ----------
 
@@ -205,41 +205,10 @@ SmartyPants converts ASCII punctuation characters into "smart" typographic punct
 | Dashes           | `-- is an en-dash and --- is an em-dash` | &#8211; is an en-dash and &#8212; is an em-dash |
 
 
-### Table of contents
-
-I can insert a table of contents using the marker `[TOC]`:
-
-[TOC]
-
-
-### MathJax
- 
-I can render *LaTeX* mathematical expressions using **MathJax**, as on [math.stackexchange.com][1]:
-
-The *Gamma function* satisfying $\Gamma(n) = (n-1)!\quad\forall
-n\in\mathbb N$ is via the Euler integral
-
-$$
-\Gamma(z) = \int_0^\infty t^{z-1}e^{-t}dt\,.
-$$
-
-> **NOTE:** When exporting, make sure I include MathJax to render mathematical expression correctly. my page/template should include something like: 
-
-```
-<script type="text/javascript" src="https://stackedit.io/libs/MathJax/MathJax.js?config=TeX-AMS_HTML"></script>
-```
-
-> **NOTE:** I can find more information:
->
-> - about **Markdown** syntax [here][2],
-> - about **Markdown Extra** extension [here][3],
-> - about **LaTeX** mathematical expressions [here][4],
-> - about **Prettify** syntax highlighting [here][5],
-> - about **Highlight.js** syntax highlighting [here][6].
 
 Written with [StackEdit](https://stackedit.io/).
 
-  [^stackedit]: StackEdit is a free, open-source Markdown editor based on PageDown, the Markdown library used by Stack Overflow and the other Stack Exchange sites.
+StackEdit is a free, open-source Markdown editor based on PageDown, the Markdown library used by Stack Overflow and the other Stack Exchange sites.
 
 
   [1]: http://math.stackexchange.com/
