@@ -6,7 +6,7 @@ tags:
 Welcome to StackEdit!	
 =====================
 
-This is a very first blog post written using StackEdit](https://stackedit.io/). StackEdit is a free, open-source Markdown editor based on PageDown, the Markdown library used by Stack Overflow and the other Stack Exchange sites.
+This is a very first blog post written using [StackEdit](https://stackedit.io/), a free, open-source Markdown editor based on PageDown, the Markdown library used by Stack Overflow and the other Stack Exchange sites.
 
 ----------
 
