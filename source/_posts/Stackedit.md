@@ -6,7 +6,7 @@ tags:
 Welcome to StackEdit!	
 =====================
 
-This is a very first blog post written using **StackEdit**. 
+This is a very first blog post written using StackEdit](https://stackedit.io/). StackEdit is a free, open-source Markdown editor based on PageDown, the Markdown library used by Stack Overflow and the other Stack Exchange sites.
 
 ----------
 
@@ -198,10 +198,6 @@ SmartyPants converts ASCII punctuation characters into "smart" typographic punct
 | Dashes           | `-- is an en-dash and --- is an em-dash` | &#8211; is an en-dash and &#8212; is an em-dash |
 
 
-
-Written with [StackEdit](https://stackedit.io/).
-
-StackEdit is a free, open-source Markdown editor based on PageDown, the Markdown library used by Stack Overflow and the other Stack Exchange sites.
 
 
   [1]: http://math.stackexchange.com/
