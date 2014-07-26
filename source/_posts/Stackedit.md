@@ -178,20 +178,13 @@ var bar = 0;
 
 With **Markdown Extra**, I can specify `class` and `id` attributes on headers and fenced code blocks just like this:
 
-##### Header example {#my-header}
+##### Header example 
 
-``` {#my-id .my-class}
+``` 
 var foo = bar;
 ```
 
 Then I can create cross-references like this: [beginning of the document](#welcome).
-
-
-### Footnotes
-
-I can create footnotes like this[^footnote].
-
-  [^footnote]: Here is the *text* of the **footnote**.
 
 
 ### SmartyPants
