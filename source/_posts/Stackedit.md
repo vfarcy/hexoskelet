@@ -3,7 +3,7 @@ date: 2014-07-26 18:59:18
 tags:
 ---
  
-Welcome to StackEdit!	
+A new online markdown editor	
 =====================
 
 This is a very first blog post written using [StackEdit](https://stackedit.io/), a free, open-source Markdown editor based on PageDown, the Markdown library used by Stack Overflow and the other Stack Exchange sites.
