@@ -3,6 +3,8 @@ date: 2014-07-29 8:37:18
 tags:
 ---
  
+Voir http://rishidoshi.blogspot.fr/
+
 Quand la première croix est terminée, face vers le bas, la pièce à l'angle est le chasseur et l'arrête correspondante est la proie.
 
 Le chasseur poursuit la proie est la tue (la joint) avant de l'amener dans le bon slot.
@@ -31,6 +33,15 @@ Amener la proie dans la zone mortelle (U)
 Ramener le tigre vers sa tanière (c'est a dire au dessus de son slot)
 Puis bondir de sa tanière pour aller tuer sa proie.
 Tirer la proie vers le slot
+
+Comment chasse l'aigle ?
+Il survola sa proie, l'accroche et l'enlève 
+Les couleurs des ailes de l'aigle sont celles de l'angle.
+U pour amener la proie au dessus de sa face
+Un quart de tour de la proie à l'opposé de son slot
+L'aigle survole sa proie (U) et s'y accroche
+
+
 
 
 
