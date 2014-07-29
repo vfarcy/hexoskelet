@@ -22,7 +22,7 @@ U : Le sticker blanc est positionné sur une diagonale non résolue (le coin opp
 Je dégage le crocodile vers le bas (L ou R)
 Amener la proie dans la zone mortelle (U)
 Tuer la proie (L ou R)
-Descendre le slot
+Descendre le slot 
 
 
 Comment chasse le tigre ? (10'55)
