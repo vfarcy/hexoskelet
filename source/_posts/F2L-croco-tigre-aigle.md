@@ -25,7 +25,7 @@ Tuer la proie (L ou R)
 Descendre le slot
 
 
-Comment chasse le tigre ?
+Comment chasse le tigre ? (10'55)
 Il saute vers sa proie, la tue et la amène dans sa tanière.
 U : Le sticker blanc est positionné sur une diagonale non résolue (le coin opposé est vide)
 Je dégage le crocodile vers le bas (L ou R)
@@ -37,7 +37,7 @@ Tirer la proie vers le slot
 Comment chasse l'aigle ?
 Il survola sa proie, l'accroche et l'enlève 
 Les couleurs des ailes de l'aigle sont celles de l'angle.
-U pour amener la proie au dessus de sa face
+U pour amener la proie au dessus de sa face (elle tombe dans la deuxième couche)
 Un quart de tour de la proie à l'opposé de son slot
 L'aigle survole sa proie (U) et s'y accroche
 
