@@ -1,18 +1,16 @@
-title: 'A simple http server'
-date: 2014-07-20 17:59:18
+title: 'F2L'
+date: 2014-07-29 8:37:18
 tags:
 ---
  
-The first thing you have to do is to create a file `server.js` :
- 
-``` js A simple http server 
-var http = require("http");
+Quand la première croix est terminée, face vers le bas, la pièce à l'angle est le chasseur et l'arrête correspondante est la proie.
 
-http.createServer(function(request, response) {
-  response.writeHead(200, {"Content-Type": "text/plain"});
-  response.write("Hello World");
-  response.end();
-}).listen(8888);
-```
- 
-To run the server, you just have to type `node server.js` at the prompt. 
+Le chasseur poursuit la proie est la tue (la joint) avant de l'amener dans le bon slot.
+
+Il y a trois possibilités :
+
+1. les deux stickers au dessus sont de la même couleur : crocodile 
+2. les deux stickers au dessus sont opposés : tigre
+3. la face supérieure de l'angle est blanche : aigle.
+4. 
+
