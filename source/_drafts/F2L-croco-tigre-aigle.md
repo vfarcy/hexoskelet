@@ -15,8 +15,9 @@ Il y a trois possibilités :
 2. les deux stickers au dessus sont opposés : tigre
 3. la face supérieure de l'angle est blanche : aigle.
 
+La ligne d'action "s'enroule" obligatoirement autour du blanc.
 
-Comment chasse le crocodile ?
+Comment chasse le crocodile ? (4'31)
 Il ne va pas vers la proie mais attend qu'elle vienne à lui.
 U : Le sticker blanc est positionné sur une diagonale non résolue (le coin opposé est vide)
 Je dégage le crocodile vers le bas (L ou R)
@@ -28,11 +29,10 @@ Descendre le slot
 Comment chasse le tigre ? (10'55)
 Il saute vers sa proie, la tue et la amène dans sa tanière.
 U : Le sticker blanc est positionné sur une diagonale non résolue (le coin opposé est vide)
-Je dégage le tigre vers le bas (L ou R)
-Amener la proie dans la zone mortelle (U)
-Ramener le tigre vers sa tanière (c'est a dire au dessus de son slot)
-Puis bondir de sa tanière pour aller tuer sa proie.
-Tirer la proie vers le slot
+Je dégage le tigre vers le bas (dans sa tanière), selon sa ligne d'action (L ou R)
+J'amène la proie dans la zone mortelle (U), loin derrière la tanière
+Le tigre bondit hors de sa tanière pour aller tuer sa proie.
+Tirer le tigre et la proie vers le slot
 
 Comment chasse l'aigle ?
 Il survola sa proie, l'accroche et l'enlève 
