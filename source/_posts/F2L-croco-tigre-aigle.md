@@ -28,7 +28,7 @@ Descendre le slot
 Comment chasse le tigre ? (10'55)
 Il saute vers sa proie, la tue et la amène dans sa tanière.
 U : Le sticker blanc est positionné sur une diagonale non résolue (le coin opposé est vide)
-Je dégage le crocodile vers le bas (L ou R)
+Je dégage le tigre vers le bas (L ou R)
 Amener la proie dans la zone mortelle (U)
 Ramener le tigre vers sa tanière (c'est a dire au dessus de son slot)
 Puis bondir de sa tanière pour aller tuer sa proie.
