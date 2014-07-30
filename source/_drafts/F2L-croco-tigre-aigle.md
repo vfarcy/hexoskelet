@@ -5,6 +5,8 @@ tags:
  
 Voir http://rishidoshi.blogspot.fr/
 
+rubik's cube
+
 Quand la première croix est terminée, face vers le bas, la pièce à l'angle est le chasseur et l'arrête correspondante est la proie.
 
 Le chasseur poursuit la proie est la tue (la joint) avant de l'amener dans le bon slot.
