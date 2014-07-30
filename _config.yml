@@ -83,7 +83,7 @@ disqus_shortname: wikifarcyme
 # Extensions
 ## Plugins: https://github.com/tommy351/hexo/wiki/Plugins
 ## Themes: https://github.com/tommy351/hexo/wiki/Themes
-theme: kaelnew
+theme: apollo
 exclude_generator:
 
 # Deployment
