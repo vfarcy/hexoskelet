@@ -3,7 +3,7 @@ date: 2014-08-05 07:09:18
 tags:
 ---
 
-Le Commodore 64 était un ordinateur personnel formidable, l'un des plus populaires de la période de la micro informatique. Le chiffre 64 désignait sa capacité mémoire : pas 64 Go, ni même 64 Mo mais juste 64 Ko, le maximum possible pour l'architecture des processeurs de l'époque.
+Le Commodore 64 était un ordinateur personnel formidable, l'un des plus populaire de la période de la micro informatique. Le chiffre 64 désignait sa capacité mémoire : pas 64 Go, ni même 64 Mo mais juste 64 Ko, le maximum possible pour l'architecture des processeurs de l'époque.
 
 Sa capacité mémoire était ainsi mise en avant, bien visible, accolée au nom de la machine. Tout le monde la connaissait : le nom de la machine se résumait un nom de la marque suivie de la mémoire disponible.
 
