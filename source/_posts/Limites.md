@@ -13,5 +13,6 @@ Il devait faire avec.
 
 Évidemment, avec un temps illimité, de l'argent illimité et des ressources illimités, les projets seraient bien différents. 
 
-Pourtant, tout projet se définit par ses limites, ses contraintes et ses frontières. C'est d'ailleurs la raison principale pour laquelle certains sont remarquables; pas à cause des ses limites, ses contraintes ou ses frontières, mais grâce à elles.     
+Pourtant, tout projet se définit par ses limites, ses contraintes et ses frontières. C'est d'ailleurs la raison principale pour laquelle certains sont remarquables; pas à cause des leurs limites, leurs contraintes ou leurs frontières, mais grâce à elles.     
+
  
