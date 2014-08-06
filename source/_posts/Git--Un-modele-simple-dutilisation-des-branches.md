@@ -2,6 +2,7 @@ title: "Git : Un modèle simple d'utilisation des branches"
 tags:
 ---
 
+**Article en test, en cours d'adaptation**
 
 # Un workflow simple qui fonctionne
 
