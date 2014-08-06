@@ -5,10 +5,10 @@ tags:
 
 # Un workflow simple qui fonctionne
 
-Le modèle présenté est très largement répandu, simple et fonctionnel. En tant que tel, ou bien via des variantes, il est utilisé par beaucoup de développeurs, par exemple chez [Athena](http://athena.ai), [GitHub](https://github.com), ou encore par Zach Holman qui le mentionne mentione dans sa [présentation] (http://www.youtube.com/watch?v=qyz3jkOBbQY&t=09m12s).
+Le modèle présenté est très largement répandu, simple et fonctionnel. En tant que tel, ou bien via des variantes, il est utilisé par beaucoup de développeurs, par exemple chez [Athena](http://athena.ai), [GitHub](https://github.com), ou encore par Zach Holman qui le mentionne mentionne dans sa [présentation](http://www.youtube.com/watch?v=qyz3jkOBbQY&t=09m12s).
 
 
-### Le principe (traduction de The gist ???) à voir
+### Le principe 
 
 1. `master` est la branche prête à être déployée en production.
 1. **tous les changements** (pull-request + merge) sont effectués dans la branche `feature`
@@ -164,4 +164,6 @@ don't regularly contribute to. But, if you are a contributor, or working in the 
 
 Up to you. Github does `git merge --no-ff` so that the commit message indicates the pull request number. This is useful information to have, don't just throw away history for the sake of it. You never know what will be useful to look at in the future.
 
-[Source]((Source) "https://gist.github.com/jbenet/ee6c9ac48068889b0912") 
+[Source]("https://gist.github.com/jbenet/ee6c9ac48068889b0912")
+
+ 
