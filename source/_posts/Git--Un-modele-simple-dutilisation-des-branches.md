@@ -164,6 +164,11 @@ don't regularly contribute to. But, if you are a contributor, or working in the 
 
 Up to you. Github does `git merge --no-ff` so that the commit message indicates the pull request number. This is useful information to have, don't just throw away history for the sake of it. You never know what will be useful to look at in the future.
 
-[Source]("https://gist.github.com/jbenet/ee6c9ac48068889b0912")
+[Source](https://gist.github.com/jbenet/ee6c9ac48068889b0912)
+
+
+
+
+
 
  
