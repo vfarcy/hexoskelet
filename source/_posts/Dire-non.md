@@ -6,4 +6,4 @@ Non, je ne peux pas vous rencontrer, non, je ne peux accepter votre offre à ce 
 
 Je suis sincèrement désolé, mais cela m'est impossible.
 
-Dire non, c'est l'assurance de pouvoir accomplir ce à quoi nous avons dit oui.
+Dire non, c'est l'assurance de pouvoir accomplir ce à quoi j'ai dit oui.
