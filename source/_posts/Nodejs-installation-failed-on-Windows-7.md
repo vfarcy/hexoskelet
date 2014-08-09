@@ -13,7 +13,7 @@ it gives me :
 
     Error : ENOENT, stat 'C:\Usesrs\User\Appdata\Roaming\npm'
 
-I goggled stackoverflow and found out that someone had the same issue on windows 8. He was answered the root cause was a missing `npm` folder.  
+I googled stackoverflow and found out that someone had the same issue on windows 8. He was answered the root cause was a missing `npm` folder.  
 
 So I created a `npm` folder in the `'C:\Usesrs\User\Appdata\Roaming\'` and everything worked fine.
 
