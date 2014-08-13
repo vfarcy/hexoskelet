@@ -80,4 +80,6 @@ Voici une liste de sites réalisés avec MDwiki avec le code associé :
 * [Simple travel blog website](http://dynalon.github.io/mdwiki-examples/travel_blog/) [[source markdown]](https://github.com/Dynalon/mdwiki-examples/tree/gh-pages/travel_blog)
 * [Single-page fansite about Muscle Cars](http://dynalon.github.io/mdwiki-examples/muscle_cars/) [[source markdown]](https://github.com/Dynalon/mdwiki-examples/tree/gh-pages/muscle_cars)
 
+Pour finir, [voici](https://github.com/vfarcy/mdwiki-seed.git) un modèle complet et vierge prêt à être utilisé. 
+
 [source](http://blog.devalias.net/post/92579952637/mdwiki-and-how-to-get-started)
