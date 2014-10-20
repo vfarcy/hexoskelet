@@ -47,7 +47,7 @@ Si vous souhaitez réduire vos dettes, alors dépensez moins.
 
 Il n'est pas nécessaire que cela soit difficile. Généralement, c'est même plutôt simple.
 
-Il n'est pas nécessaire que cela soit joli. Généralement, quand vous débuter, cela ne l'est pas.
+Il n'est pas nécessaire que cela soit joli. Généralement, quand vous débutez, cela ne l'est pas.
 
 Il n'est pas nécessaire que cela soit parfait. Même le mieux n'est pas sans défauts.
 
