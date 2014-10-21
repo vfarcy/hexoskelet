@@ -3,9 +3,9 @@ date: 2014-10-20 21:34:50
 tags:
 ---
 
-Souvent ils me disent ce qu'ils aimeraient être.
+Souvent ils me disent ce qu'ils aimeraient faire.
 
-Souvent, les objectifs qu'ils poursuivent ne les y aide pas.
+Souvent, les objectifs qu'ils poursuivent ne les y aident pas.
 
 La question est "font ils ce qu'ils souhaitent devenir ?"
 
