@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title><![CDATA[Meandering thoughts...]]></title>
   <subtitle><![CDATA[In a nutshell]]></subtitle>
-  <link href="/hexoskelet/atom.xml" rel="self"/>
-  <link href="http://vfarcy.github.io/hexoskelet/"/>
-  <updated>2014-06-23T12:08:04.195Z</updated>
-  <id>http://vfarcy.github.io/hexoskelet/</id>
+  <link href="/atom.xml" rel="self"/>
+  <link href="http://blog.farcy.me/"/>
+  <updated>2014-10-21T10:30:12.935Z</updated>
+  <id>http://blog.farcy.me/</id>
   
   <author>
     <name><![CDATA[Valéry Farcy]]></name>
@@ -15,9 +15,439 @@
   <generator uri="http://zespia.tw/hexo/">Hexo</generator>
   
   <entry>
+    <title><![CDATA[Faire]]></title>
+    <link href="http://blog.farcy.me/2014/10/20/Faire/"/>
+    <id>http://blog.farcy.me/2014/10/20/Faire/</id>
+    <published>2014-10-20T19:34:50.000Z</published>
+    <updated>2014-10-21T10:29:47.000Z</updated>
+    <content type="html"><![CDATA[<p>Souvent ils me disent ce qu’ils aimeraient faire.</p>
+<p>Souvent, les objectifs qu’ils poursuivent ne les y aident pas.</p>
+<p>La question est “font ils ce qu’ils souhaitent devenir ?”</p>
+<p>Faites ce que vous voulez être.</p>
+<p>Souhaiter n’aide en rien à ce que les choses arrivent.</p>
+<p>Espérer ne transforme pas les rêves en réalité.</p>
+<p>C’est en vous employant à faire que vous ferez.</p>
+<p>Faire, c’est ce qui rend la chose possible.</p>
+<p>Faire, c’est ce qui rend plus fort.</p>
+<p>Faire, c’est ce qui rend meilleur.</p>
+<p>Appelez cela de la pratique.</p>
+<p>Appelez cela de l’apprentissage.</p>
+<p>Appeler cela l’habitude.</p>
+<p>Qu’importe comment vous l’appelez.</p>
+<p>Le principal est que vous le fassiez.</p>
+<p>Qu’importe ce que c’est.</p>
+<p>Si vous souhaitez devenir écrivain, alors écrivez.</p>
+<p>Si vous souhaitez devenir orateur, alors parlez.</p>
+<p>Si vous souhaitez être en forme, alors bougez-vous.</p>
+<p>Si vous souhaitez devenir un expert, alors étudiez.</p>
+<p>Si vous souhaitez réduire vos dettes, alors dépensez moins.</p>
+<p>Il n’est pas nécessaire que cela soit difficile. Généralement, c’est même plutôt simple.</p>
+<p>Il n’est pas nécessaire que cela soit joli. Généralement, quand vous débutez, cela ne l’est pas.</p>
+<p>Il n’est pas nécessaire que cela soit parfait. Même le mieux n’est pas sans défauts.</p>
+<p>Ce qui importe, c’est que vous le fassiez.</p>
+<p>Ce qui importe, c’est que vous engagiez le premier pas.</p>
+<p>Ce qui importe, c’est que vous le fassiez maintenant.</p>
+<p>Vous êtes ce que vous entreprenez.</p>
+<p>Alors, entreprenez ce que vous voulez devenir.</p>
+<p>Dès aujourd’hui et chaque jour.</p>
+]]></content>
+    
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Connaissez-vous MDwiki ?]]></title>
+    <link href="http://blog.farcy.me/2014/08/13/Connaissez-vous-MDwiki-/"/>
+    <id>http://blog.farcy.me/2014/08/13/Connaissez-vous-MDwiki-/</id>
+    <published>2014-08-13T06:05:16.000Z</published>
+    <updated>2014-08-21T09:24:55.000Z</updated>
+    <content type="html"><![CDATA[<h1 id="MDwiki_:_Un_wiki_statique_en_markdown">MDwiki : Un wiki statique en markdown</h1>
+<p><a href="http://dynalon.github.io/mdwiki/" target="_blank" rel="external">MDwiki</a> est un CMS / wiki qui s’exécute intégralement dans le navigateur (HTML5/Javascript) et qui utilise <a href="http://en.wikipedia.org/wiki/Markdown" target="_blank" rel="external">Markdown</a> comme syntaxe de description du texte.</p>
+<p>Comme il s’exécute intégralement du côté client, il est possible de réaliser des choses assez sympathiques, comme par exemple suivre les changements sur git(hub) et héberger gratuitement le contenu sur les <a href="https://pages.github.com/" target="_blank" rel="external">pages Gitub</a>.</p>
+<h1 id="Mise_en_place_sur_Github">Mise en place sur Github</h1>
+<p>Il existe un <a href="http://dynalon.github.io/mdwiki/#!tutorials/github.md" target="_blank" rel="external">guide officiel</a> mais voici une procédure détaillée et complémentaire pour héberger MDwiki sur Github. Nous partons du principe que vous disposez déjà d’un compte Github.</p>
+<ul>
+<li>sur Github<ul>
+<li><a href="https://github.com/new" target="_blank" rel="external">Créer un répo</a> et lui donner un nom adéquat(par exemple <code>my-mdwiki</code>)</li>
+</ul>
+</li>
+<li>Installer MDwiki<ul>
+<li><a href="https://github.com/Dynalon/mdwiki/releases" target="_blank" rel="external">Télécharger la dernière version</a></li>
+<li>L’extraire dans le répertoire du répo (par exemple <code>my-mdwiki</code>)</li>
+<li>Choisir l’un des deux fichiers suivants :<ul>
+<li><code>mdwiki.html</code> contient l’ensemble des librairies</li>
+<li><code>mdwiki-slim.html</code> contient le noyau de MDwiki et charge les librairies complémentaires depuis internet</li>
+</ul>
+</li>
+<li>En fonction de votre choix, renommer <code>mdwiki.html</code> ou <code>mdwiki-slim.html</code> en  <code>index.html</code></li>
+<li>Créer ensuite un fichier <code>config.json</code>. Pour cela, se référer à <a href="http://dynalon.github.io/mdwiki/#!customizing.md" target="_blank" rel="external">ce document</a> (en anglais)ou utiliser celui-ci :</li>
+</ul>
+</li>
+</ul>
+<figure class="highlight json"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line">{</div><div class="line">    "<span class="attribute">useSideMenu</span>": <span class="value"><span class="literal">true</span></span>,</div><div class="line">    "<span class="attribute">lineBreaks</span>": <span class="value"><span class="string">"gfm"</span></span>,</div><div class="line">    "<span class="attribute">additionalFooterText</span>": <span class="value"><span class="string">""</span></span>,</div><div class="line">    "<span class="attribute">anchorCharacter</span>": <span class="value"><span class="string">"&para;"</span></span>,</div><div class="line">    "<span class="attribute">title</span>": <span class="value"><span class="string">"My Shiny New MDwiki"</span></span></div><div class="line">}</div></pre></td></tr></table></figure>
+
+<ul>
+<li>Créer un fichier <code>navigation.md</code> (<a href="http://dynalon.github.io/mdwiki/#!quickstart.md" target="_blank" rel="external">docs en aglais</a>) qui contient (essentiellement) les menus :</li>
+</ul>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div></pre></td><td class="code"><pre><div class="line"><span class="header"># Le nom du wiki</span></div><div class="line"></div><div class="line">[<span class="link_label">Home</span>](<span class="link_url">index.md</span>)</div><div class="line">[<span class="link_label">About</span>](<span class="link_url">about.md</span>)</div><div class="line">[<span class="link_label">Download</span>](<span class="link_url">download.md</span>)</div></pre></td></tr></table></figure>
+
+<ul>
+<li>Créer une première page (le principe est identique pour les autres pages) en créant un fichier <code>index.md</code> (même nom que le fichier déclaré dans <code>navigation.md</code>.</li>
+</ul>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line"><span class="header"># Hello World!</span></div><div class="line"></div><div class="line">Voilà une première page!</div></pre></td></tr></table></figure>
+
+<ul>
+<li>Voilà, c’est terminé.</li>
+<li>En bonus, de manière à tester le contenu en local, il est possible de lacer un serveur web, par exemple en utilisant le serveur intégré à python. Pour cela, il suffit de créer un script <code>run-pyserver.sh</code> (ne pas oublier de la rendre exécutable : <code>chmod +x run-pyserver.sh</code> !) : </li>
+</ul>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line"><span class="shebang">#!/bin/bash</span></div><div class="line"></div><div class="line">open http://localhost:<span class="number">8000</span></div><div class="line">python -m SimpleHTTPServer <span class="number">8000</span></div></pre></td></tr></table></figure>
+
+<ul>
+<li>Maintenant, il faut initialiser le repo Git:<ul>
+<li>Se rendre dans le répertoire ad-hoc (par exemple <code>cd ~/my-mdwiki</code>)</li>
+<li>Initialiser le repo : <code>git init</code></li>
+<li>Créer une branche initiale <em>gh-pages</em> (et non <em>master</em>): <code>git symbolic-ref HEAD refs/heads/gh-pages</code></li>
+<li>Ajouter tous les fichiers créés jusqu’à maintenant : <code>git add .</code></li>
+<li>Les commiter :  <code>git commit -m &quot;Initial Commit&quot;</code></li>
+<li>Ajouter le repo Gihub en tant que distant (replacer <code>YOURUSERNAME</code> avec le login Github réel, et <code>my-mdwiki</code> avec le nom du repo créé initialement) : <code>git remote add origin git@github.com:YOURUSERNAME/my-mdwiki.git</code></li>
+<li>Puis pousser le tout sur github: <code>git push -u origin gh-pages</code></li>
+</ul>
+</li>
+<li>C’est terminé, très rapidement, le wiki est en ligne à l’adresse <a href="http://YOURUSERNAME.github.io/my-mdwiki" target="_blank" rel="external">http://YOURUSERNAME.github.io/my-mdwiki</a></li>
+</ul>
+<h1 id="Exemples">Exemples</h1>
+<p>Voici une liste de sites réalisés avec MDwiki avec le code associé :</p>
+<ul>
+<li><a href="http://dynalon.github.io/mdwiki-examples/cafe/" target="_blank" rel="external">Sample coffee place</a> <a href="https://github.com/Dynalon/mdwiki-examples/tree/gh-pages/cafe" target="_blank" rel="external">[source markdown]</a></li>
+<li><a href="http://dynalon.github.io/mdwiki-examples/travel_blog/" target="_blank" rel="external">Simple travel blog website</a> <a href="https://github.com/Dynalon/mdwiki-examples/tree/gh-pages/travel_blog" target="_blank" rel="external">[source markdown]</a></li>
+<li><a href="http://dynalon.github.io/mdwiki-examples/muscle_cars/" target="_blank" rel="external">Single-page fansite about Muscle Cars</a> <a href="https://github.com/Dynalon/mdwiki-examples/tree/gh-pages/muscle_cars" target="_blank" rel="external">[source markdown]</a></li>
+</ul>
+<p>Pour finir, <a href="https://github.com/vfarcy/mdwiki-seed.git" target="_blank" rel="external">voici</a> un modèle complet et vierge prêt à être utilisé. </p>
+<p><a href="http://blog.devalias.net/post/92579952637/mdwiki-and-how-to-get-started" target="_blank" rel="external">source</a></p>
+]]></content>
+    
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[La communauté d'entraide de Grosbill]]></title>
+    <link href="http://blog.farcy.me/2014/08/08/La-communaute-dentraide-de-Grosbill/"/>
+    <id>http://blog.farcy.me/2014/08/08/La-communaute-dentraide-de-Grosbill/</id>
+    <published>2014-08-08T07:57:38.000Z</published>
+    <updated>2014-08-21T09:24:55.000Z</updated>
+    <content type="html"><![CDATA[<p>J’ai dernièrement acheté chez Grobill un SSD pour remplacer le disque dur d’un portable qui commençait à donner des signes de faiblesse.</p>
+<p>Quelques jours après cet achat, je reçois deux mails de Grosbill : l’un m’invitant à répondre à un questionnaire de satisfaction sur la qualité de l’environnement d’achat (accueil, disponibilité, ..), l’autre m’informant, que suite à mon achat, je suis maintenant inscrit à la communauté d’entraide de Grosbill.</p>
+<p>Rien à dire sur l’acte d’achat lui même effectué en magasin. Le service était bon.</p>
+<p>Par contre, qu’est ce que la communauté d’entraide à laquelle je suis inscrit <strong>par défaut</strong> suite à mon achat et dont j’ignorais l’existence ?</p>
+<p>Le mail explique que cette communauté permet à tout moment aux clients Grosbill d’interroger d’autres utilisateurs, de partager des conseils et astuces et de trouver des réponses à des questions déjà résolues. Un lien permet de rejoindre la communauté, et un autre permet de s’en <strong>désinscrire</strong>.</p>
+<p>Monsieur Grosbill, je souscris parfaitement à l’idée de créer une communauté qui permet à vos clients d’échanger entre eux sur les produits qu’ils ont acheté. En revanche, j’aurais souhaité avoir la possibilité de décider de m’y inscrire, plutôt que d’y avoir été inscrit, <strong>par défaut</strong>, par vos soins. A la lecture de votre mail, j’ai plutôt retenu que vous sous-traitiez a vil prix, à vos clients, votre service clientèle après vente, démarche à laquelle, en revanche, je ne souscris pas du tout.</p>
+<p>J’ai donc cliqué sur le lien pour me désinscrire, ce qui m’a amené vers une page me confirmant que je ne recevrai alors plus d’alertes au sujet du produit acheté. Un comble, je m’apprêtais à être spammé.</p>
+<p>Cette expérience me rappelle l’époque à laquelle (c’est corrigé depuis), encore <strong>par défaut</strong>, Grosbill “proposait” un service d’échange à neuf à l’achat. Il fallait bien veiller à <strong>décocher</strong> l’option lors de la validation du panier d’achat, sous peine d’avoir une surprise lors du passage en caisse. </p>
+]]></content>
+    
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Dire non]]></title>
+    <link href="http://blog.farcy.me/2014/08/06/Dire-non/"/>
+    <id>http://blog.farcy.me/2014/08/06/Dire-non/</id>
+    <published>2014-08-06T04:32:15.000Z</published>
+    <updated>2014-08-21T09:24:55.000Z</updated>
+    <content type="html"><![CDATA[<p>Non, je ne peux pas vous rencontrer, non, je ne peux accepter votre offre à ce prix, non, je ne peux pas effectuer ce travail, non, je ne peux pas me rendre disponible ce soir, non je ne peux pas vous aider.</p>
+<p>Je suis sincèrement désolé, mais cela m’est impossible.</p>
+<p>Dire non, c’est l’assurance de pouvoir accomplir ce à quoi j’ai dit oui.</p>
+]]></content>
+    
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Les vertus des contraintes]]></title>
+    <link href="http://blog.farcy.me/2014/08/05/Limites/"/>
+    <id>http://blog.farcy.me/2014/08/05/Limites/</id>
+    <published>2014-08-05T05:09:18.000Z</published>
+    <updated>2014-08-21T09:24:55.000Z</updated>
+    <content type="html"><![CDATA[<p>Le Commodore 64 était un ordinateur personnel formidable, l’un des plus populaire de la période de la micro informatique. Le chiffre 64 désignait sa capacité mémoire : pas 64 Go, ni même 64 Mo mais juste 64 Ko, le maximum possible pour l’architecture des processeurs de l’époque.</p>
+<p>Sa capacité mémoire était ainsi mise en avant, bien visible, accolée au nom de la machine. Tout le monde la connaissait : le nom de la machine se résumait au nom de la marque suivi de la mémoire disponible.</p>
+<p>Si un développeur avait l’idée de de plaindre de la mémoire disponible, personne ne l’écoutait. Il devait faire avec.</p>
+<p>Évidemment, avec un temps illimité, de l’argent illimité et des ressources illimités, les projets seraient bien différents. </p>
+<p>Pourtant, tout projet se définit par ses limites, ses contraintes et ses frontières. C’est d’ailleurs la raison principale pour laquelle certains sont remarquables; pas à cause des leurs limites, leurs contraintes ou leurs frontières, mais grâce à elles.     </p>
+]]></content>
+    
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Nodejs installation failed on Windows 7]]></title>
+    <link href="http://blog.farcy.me/2014/08/04/Nodejs-installation-failed-on-Windows-7/"/>
+    <id>http://blog.farcy.me/2014/08/04/Nodejs-installation-failed-on-Windows-7/</id>
+    <published>2014-08-04T06:32:13.000Z</published>
+    <updated>2014-08-21T09:24:55.000Z</updated>
+    <content type="html"><![CDATA[<p>I just installed Nodejs on a computer with windows seven and can’t get npm to work on it,although the node server starts perfectly.</p>
+<p>If I enter : </p>
+<p><code>npm install</code> </p>
+<p>it gives me :</p>
+<pre><code>Error : ENOENT, stat 'C:<span class="command">\Usesrs</span><span class="command">\User</span><span class="command">\Appdata</span><span class="command">\Roaming</span><span class="command">\npm</span>'
+</code></pre><p>I googled stackoverflow and found out that someone had the same issue on windows 8. He was answered the root cause was a missing <code>npm</code> folder.  </p>
+<p>So I created a <code>npm</code> folder in the <code>&#39;C:\Usesrs\User\Appdata\Roaming\&#39;</code> and everything worked fine.</p>
+<p>This is a strange error that didn’t occur on my previous Nodejs installations. I don’t understand why the installation process didn’t create it this time, it seems like a bug in latest NodeJS windows installation.</p>
+]]></content>
+    
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Giving stackedit a try]]></title>
+    <link href="http://blog.farcy.me/2014/07/26/Stackedit/"/>
+    <id>http://blog.farcy.me/2014/07/26/Stackedit/</id>
+    <published>2014-07-26T16:59:18.000Z</published>
+    <updated>2014-07-29T06:23:04.000Z</updated>
+    <content type="html"><![CDATA[<h1 id="A_new_online_markdown_editor_">A new online markdown editor    </h1>
+<p>This is my very first post written using <a href="https://stackedit.io/" target="_blank" rel="external">StackEdit</a>, a free, open-source Markdown editor based on PageDown, the Markdown library used by Stack Overflow and the other Stack Exchange sites.</p>
+<hr>
+<h2 id="Documents">Documents</h2>
+<p><strong>StackEdit</strong> stores the documents in the browser local storage, which means they are are automatically saved locally and are accessible offline.</p>
+<blockquote>
+<p><strong>NOTE:</strong> This also means that the documents are not shared between different browsers or computers and that clearing my browser’s data may <strong>delete all of them!</strong></p>
+</blockquote>
+<h4 id="_Create_a_document"><i class="icon-file"></i> Create a document</h4>
+<p>You can create a new document by clicking the <i class="icon-file"></i> button in the navigation bar. This will switch from the current document to the new one.</p>
+<h4 id="_Switch_to_another_document"><i class="icon-folder-open"></i> Switch to another document</h4>
+<p>You can as well list all your local documents and switch from one to another by clicking the <i class="icon-folder-open"></i> button in the navigation bar.</p>
+<h4 id="_Rename_a_document"><i class="icon-pencil"></i> Rename a document</h4>
+<p>You can rename the current document by clicking the document title in the navigation bar.</p>
+<h4 id="_Delete_a_document"><i class="icon-trash"></i> Delete a document</h4>
+<p>You can delete the current document by clicking the <i class="icon-trash"></i> button in the navigation bar.</p>
+<h4 id="_Save_a_document"><i class="icon-hdd"></i> Save a document</h4>
+<p>You can save the current document to a file using the <i class="icon-hdd"></i> <code>Save as...</code> sub-menu.</p>
+<blockquote>
+<p><strong>NOTE:</strong> See <a href="#publish-a-document"><i class="icon-share"></i> Publish a document</a> section for a description of the different outputs.</p>
+</blockquote>
+<hr>
+<h2 id="Synchronization">Synchronization</h2>
+<p><strong>StackEdit</strong> can be combined with <strong>Google Drive</strong> and <strong>Dropbox</strong> to have your documents centralized in the <em>Cloud</em>. The synchronization mechanism will take care of uploading your modifications or downloading the latest version of your documents.</p>
+<blockquote>
+<p><strong>NOTE:</strong></p>
+<ul>
+<li>Full access to <strong>Google Drive</strong> or <strong>Dropbox</strong> is required to be able to import any document in StackEdit.</li>
+<li>Imported documents are downloaded in your browser and are not transmitted to a server.</li>
+<li>If you experience problems exporting documents to Google Drive, check and optionally disable browser extensions, such as Disconnect.</li>
+</ul>
+</blockquote>
+<h4 id="_Import_a_document"><i class="icon-download"></i> Import a document</h4>
+<p>You can import a document from the <em>Cloud</em> by going to the <i class="icon-provider-gdrive"></i> <code>Google Drive</code> or the <i class="icon-provider-dropbox"></i> <code>Dropbox</code> sub-menu and by clicking <code>Import from...</code>. Once imported, your document will be automatically synchronized with the <strong>Google Drive</strong> / <strong>Dropbox</strong> file.</p>
+<h4 id="_Export_a_document"><i class="icon-upload"></i> Export a document</h4>
+<p>You can export any document by going to the <i class="icon-provider-gdrive"></i> <code>Google Drive</code> or the <i class="icon-provider-dropbox"></i> <code>Dropbox</code> sub-menu and by clicking <code>Export to...</code>. Even if my document is already synchronized with <strong>Google Drive</strong> or <strong>Dropbox</strong>, you can export it to a another location. <strong>StackEdit</strong> can synchronize one document with multiple locations.</p>
+<h4 id="_Synchronize_a_document"><i class="icon-refresh"></i> Synchronize a document</h4>
+<p>Once your document is linked to a <strong>Google Drive</strong> or a <strong>Dropbox</strong> file, <strong>StackEdit</strong> will periodically (every 3 minutes) synchronize it by downloading/uploading any modification. Any conflict will be detected, and a local copy of your document will be created as a backup if necessary.</p>
+<p>If you just have modified your document and you want to force the synchronization, click the <i class="icon-refresh"></i> button in the navigation bar.</p>
+<blockquote>
+<p><strong>NOTE:</strong> The <i class="icon-refresh"></i> button is disabled when:</p>
+<ul>
+<li>You are offline,</li>
+<li>or the document is not synchronized with any location,</li>
+<li>or the document has not been modified since the last synchronization.</li>
+</ul>
+</blockquote>
+<h4 id="_Manage_document_synchronization"><i class="icon-refresh"></i> Manage document synchronization</h4>
+<p>Since one document can be synchronized with multiple locations, you can list and manage synchronized locations by clicking <i class="icon-refresh"></i> <code>Manage synchronization</code> in the <i class="icon-provider-stackedit"></i> menu. This will open a dialog box allowing you to add or remove synchronization links that are associated to your document.</p>
+<blockquote>
+<p><strong>NOTE:</strong> If you delete the file from <strong>Google Drive</strong> or from <strong>Dropbox</strong>, the document will no longer be synchronized with that location.</p>
+</blockquote>
+<hr>
+<h2 id="Publication">Publication</h2>
+<p>Once you are happy with your document, you can publish it on different websites directly from <strong>StackEdit</strong>. As for now, <strong>StackEdit</strong> can publish on <strong>Blogger</strong>, <strong>Dropbox</strong>, <strong>Gist</strong>, <strong>GitHub</strong>, <strong>Google Drive</strong>, <strong>Tumblr</strong>, <strong>WordPress</strong> and on any SSH server.</p>
+<h4 id="_Publish_a_document"><i class="icon-share"></i> Publish a document</h4>
+<p>You can publish your document by going to the <i class="icon-share"></i> <code>Publish on</code> sub-menu and by choosing a website. In the dialog box, you can choose the publication format:</p>
+<ul>
+<li>Markdown, to publish the Markdown text on a website that can interpret it (<strong>GitHub</strong> for instance),</li>
+<li>HTML, to publish the document converted into HTML (on a blog for instance),</li>
+<li>Template, to have a full control of the output.</li>
+</ul>
+<blockquote>
+<p><strong>NOTE:</strong> The default template is a simple webpage wrapping my document in HTML format. You can customize it in the <code>Services</code> tab of the <i class="icon-cog"></i> <code>Settings</code> dialog.</p>
+</blockquote>
+<h4 id="_Update_a_publication"><i class="icon-share"></i> Update a publication</h4>
+<p>After publishing, <strong>StackEdit</strong> will keep your document linked to that publish location so that you can update it easily. Once you have modified your document and you want to update my publication, click on the <i class="icon-share"></i> button in the navigation bar.</p>
+<blockquote>
+<p><strong>NOTE:</strong> The <i class="icon-share"></i> button is disabled when:</p>
+<ul>
+<li>You are offline,</li>
+<li>or the document has not been published anywhere.</li>
+</ul>
+</blockquote>
+<h4 id="_Manage_document_publication"><i class="icon-share"></i> Manage document publication</h4>
+<p>Since one document can be published on multiple locations, you can list and manage publish locations by clicking <i class="icon-share"></i> <code>Manage publication</code> in the <i class="icon-provider-stackedit"></i> menu. This will open a dialog box allowing you to remove publication links that are associated to your document.</p>
+<blockquote>
+<p><strong>NOTE:</strong> In some cases, if you remove the file from the website or the post from the blog, the document will no longer be published on that location.</p>
+</blockquote>
+<hr>
+<h2 id="Markdown_Extra">Markdown Extra</h2>
+<p><strong>StackEdit</strong> supports <strong>Markdown Extra</strong>, which extends <strong>Markdown</strong> syntax with some nice features.</p>
+<blockquote>
+<p><strong>NOTE:</strong> You can disable any <strong>Markdown Extra</strong> feature in the <code>Extensions</code> tab of the <i class="icon-cog"></i> <code>Settings</code> dialog.</p>
+</blockquote>
+<h3 id="Tables">Tables</h3>
+<p><strong>Markdown Extra</strong> has a special syntax for tables:</p>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Computer</td>
+<td>$1600</td>
+</tr>
+<tr>
+<td>Phone</td>
+<td>$12</td>
+</tr>
+<tr>
+<td>Pipe</td>
+<td>$1</td>
+</tr>
+</tbody>
+</table>
+<p>You can specify column alignment with one or two colons:</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Item</th>
+<th style="text-align:right">Value</th>
+<th style="text-align:center">Qty</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Computer</td>
+<td style="text-align:right">$1600</td>
+<td style="text-align:center">5</td>
+</tr>
+<tr>
+<td style="text-align:left">Phone</td>
+<td style="text-align:right">$12</td>
+<td style="text-align:center">12</td>
+</tr>
+<tr>
+<td style="text-align:left">Pipe</td>
+<td style="text-align:right">$1</td>
+<td style="text-align:center">234</td>
+</tr>
+</tbody>
+</table>
+<h3 id="Definition_Lists">Definition Lists</h3>
+<p><strong>Markdown Extra</strong> has a special syntax for definition lists too:</p>
+<p>Term 1<br>Term 2<br>:   Definition A<br>:   Definition B</p>
+<p>Term 3</p>
+<p>:   Definition C</p>
+<p>:   Definition D</p>
+<pre><code>&gt; part <span class="keyword">of</span> <span class="keyword">definition</span> D
+</code></pre><h3 id="Fenced_code_blocks">Fenced code blocks</h3>
+<p>GitHub’s fenced code blocks are also supported with <strong>Prettify</strong> syntax highlighting:</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"><span class="comment">// Foo</span></div><div class="line"><span class="keyword">var</span> bar = <span class="number">0</span>;</div></pre></td></tr></table></figure>
+
+<blockquote>
+<p><strong>NOTE:</strong> To use <strong>Highlight.js</strong> instead of <strong>Prettify</strong>, just configure the <code>Markdown Extra</code> extension in the <i class="icon-cog"></i> <code>Settings</code> dialog.</p>
+</blockquote>
+<h3 id="Special_Attributes">Special Attributes</h3>
+<p>With <strong>Markdown Extra</strong>, you can specify <code>class</code> and <code>id</code> attributes on headers and fenced code blocks just like this:</p>
+<h5 id="Header_example">Header example</h5>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"><span class="attribute">var foo </span>=<span class="string"> bar;</span></div></pre></td></tr></table></figure>
+
+]]></content>
+    
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[A simple http server]]></title>
+    <link href="http://blog.farcy.me/2014/07/20/A-simple-http-server/"/>
+    <id>http://blog.farcy.me/2014/07/20/A-simple-http-server/</id>
+    <published>2014-07-20T15:59:18.000Z</published>
+    <updated>2014-07-22T07:01:33.000Z</updated>
+    <content type="html"><![CDATA[<p>The first thing you have to do is to create a file <code>server.js</code> :</p>
+<figure class="highlight js"><figcaption><span>A simple http server </span></figcaption><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">var</span> http = <span class="built_in">require</span>(<span class="string">"http"</span>);</div><div class="line"></div><div class="line">http.createServer(<span class="function"><span class="keyword">function</span><span class="params">(request, response)</span> </span>{</div><div class="line">  response.writeHead(<span class="number">200</span>, {<span class="string">"Content-Type"</span>: <span class="string">"text/plain"</span>});</div><div class="line">  response.write(<span class="string">"Hello World"</span>);</div><div class="line">  response.end();</div><div class="line">}).listen(<span class="number">8888</span>);</div></pre></td></tr></table></figure>
+
+
+<p>To run the server, you just have to type <code>node server.js</code> at the prompt.  </p>
+]]></content>
+    
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Arrière toute]]></title>
+    <link href="http://blog.farcy.me/2014/07/20/Arri%C3%A8re%20toute-/"/>
+    <id>http://blog.farcy.me/2014/07/20/Arrière toute-/</id>
+    <published>2014-07-20T07:59:18.000Z</published>
+    <updated>2014-07-22T07:01:33.000Z</updated>
+    <content type="html"><![CDATA[<p>L’installation du plugin <code>hexo-tag-uml</code> est moins immédiate que prévue (elle requiert la modification les layouts du thème actif). Par manque de temps, il m’est impossible d’aller plus loin.<br>Retour dans un état stable.</p>
+]]></content>
+    
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Comment rediriger un nom de domaine vers un blog statique hébergé sur Github ?]]></title>
+    <link href="http://blog.farcy.me/2014/07/14/redirection-vers-github/"/>
+    <id>http://blog.farcy.me/2014/07/14/redirection-vers-github/</id>
+    <published>2014-07-14T16:04:49.000Z</published>
+    <updated>2014-07-15T08:03:32.000Z</updated>
+    <content type="html"><![CDATA[<p>Github autorise l’hébergement de pages web statiques et offre la possibilté d’y accéder à partir d’un nom de domaine du type <code>sousdomaine.domaine.tld</code>. C’est gratuit (hors le coût du nom de domaine) et pratique.</p>
+<p>C’est le moyen que j’utilise pour héberger ce blog : son repository public est chez github : <a href="https://github.com/vfarcy/hexoskelet" target="_blank" rel="external">https://github.com/vfarcy/hexoskelet</a>, le code du site est stocké sous la branche <code>master</code>, la version statique générée est sous la branche <code>gh-pages</code> à laquelle vous accédez via la redirection <a href="http://blog.farcy.me" target="_blank" rel="external">http://blog.farcy.me</a>.</p>
+<p>Il existe de nombreux tutoriaux qui indiquent la marche à suivre, mais ils sont souvent anciens, ou bien compliqués. Je vous résume la méthode que j’ai utilisée avec succès.</p>
+<p>Vous avez deux choses à faire. D’abord, vous devez créer un enregistement <code>CNAME</code> qui pointe vers votre adresse github (du type votrenom.github.io) à partir du panneau de contrôle de votre registar. Ensuite, vous devez créer un fichier CNAME dans votre repository qui contient l’adresse du type <code>sousdomaine.domaine.tld</code>.</p>
+<p>Dans la pratique, après avoir créé l’enregistrement <code>CNAME</code> (attention, certains registars réclament une adresse du type <code>sousdomaine.domaine.tld.</code>, <strong>vous noterez le point final</strong>), vous laisserez suffisamment de temps pour que le DNS se propage. Vous pouvez vérifier la progression de la propagation en utilisant un service comme whatismydns.com. Chez moi, une vingtaine de minutes ont suffi pour obtenir une propagation quasi totale.</p>
+<p>Quand cette première étape est passée, il vous reste à créer chez Github un fichier <code>CNAME</code> comportant le même sous domaine <code>sousdomaine.domaine.tld</code>, <strong> cette fois sans le point final !</strong>, et à patienter (encore …) une quinzaine de minutes. Attention, si vos pages sont hébergées dans un repository Github du  type <code>login.github.io</code>, alors le fichier <code>CNAME</code> doit se trouver sous la branche <code>master</code> tandis qu’il doit se trouver sous la branche <code>gh-pages</code> si votre repository est créé sous <code>login.github.com\nomdurepos</code>.</p>
+<p>Pour finir, si vous utilisez le générateur de blog hexo.io, vous pouvez utiliser le plugin <code>hexo-generator-cname</code> (<a href="https://github.com/leecrossley/hexo-generator-cname" target="_blank" rel="external">https://github.com/leecrossley/hexo-generator-cname</a>) qui va créer automatiquement le fichier <code>CNAME</code> au moment du déploiment du site : <code>hexo deploy</code>.</p>
+]]></content>
+    
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Mise en place du nouveau lien RSS]]></title>
+    <link href="http://blog.farcy.me/2014/07/13/Mise-en-place-du-feed-RSS/"/>
+    <id>http://blog.farcy.me/2014/07/13/Mise-en-place-du-feed-RSS/</id>
+    <published>2014-07-13T08:44:49.000Z</published>
+    <updated>2014-07-15T08:03:32.000Z</updated>
+    <content type="html"><![CDATA[<p>Cette année, Feedburner n’est pas passé à la trappe lors du grand nettoyage de printemps de Google (vous souvenez-vous de Google reader ?). Je profite donc que le service de redirection des flux soit toujours en vie pour noter ici la manip à effectuer. J’ignore s’il existe beaucoup d’utilisateurs francophones de hexo.io, mais au moins, si je le note ici, je ne devrais pas l’oublier !</p>
+<p>Donc, avec Hexo.io, la déclaration de l’adresse du flux RSS s’effectue directement dans le fichier de configuration du thème <code>_config.yml</code>.</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line"><span class="preprocessor"># Header</span></div><div class="line"><span class="label">menu:</span></div><div class="line">  Home: /</div><div class="line">  Archives: /archives</div><div class="line"><span class="label">rss:</span> http://feeds.feedburner.com/vfarcy?format=xml</div><div class="line"></div><div class="line"><span class="preprocessor"># Content</span></div><div class="line"><span class="label">excerpt_link:</span> Read More</div><div class="line"><span class="label">fancybox:</span> true</div><div class="line"></div><div class="line"><span class="preprocessor"># Miscellaneous</span></div><div class="line"><span class="label">google_analytics:</span></div><div class="line"><span class="label">favicon:</span> favicon.png</div></pre></td></tr></table></figure>
+
+<p>Hope this helps !</p>
+]]></content>
+    
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Appel à manifestations d'intérêt - Culture de l'innovation et de l'entrepreneuriat]]></title>
+    <link href="http://blog.farcy.me/2014/06/29/Appel-a-manifestations-dinteret---Culture-de-linnovation-et-de-lentrepreneuriat/"/>
+    <id>http://blog.farcy.me/2014/06/29/Appel-a-manifestations-dinteret---Culture-de-linnovation-et-de-lentrepreneuriat/</id>
+    <published>2014-06-29T08:03:51.000Z</published>
+    <updated>2014-07-15T08:03:32.000Z</updated>
+    <content type="html"><![CDATA[<p>Un Appel à manifestations d’intérêt (AMI) « Culture de l’innovation et de l’entrepreneuriat », géré par la Caisse des Dépôts pour le compte de l’Etat, a été lancé début juin dans le cadre du Programme d’investissements d’avenir(PIA).</p>
+<p>Les projets recherchés doivent associer impérativement des acteurs privés et publics et cibler des jeunes inscrits dans un parcours scolaire (niveaux primaire et secondaire), ou dans une formation d’enseignement supérieur, ou sortis des dispositifs de formation, et souhaitant s’inscrire dans un parcours d’insertion et d’autonomie professionnelle afin de créer leur entreprise.</p>
+<p>La deadline de remise du dossier est fixée au 15 septembre, ce qui laisse suffisamment de temps pour monter un avant projet qui préfigurera les actions concrêtes qui pourront être détaillées lors du lancement de l’appel à projets prévu d’ici la fin de l’année. Le budget indiqué est de 20m€.  </p>
+<p>Les informations essentielles sont détaillées dans le tweet que j’ai poussé il y a quelques jours. </p>
+<p><blockquote class="twitter-tweet" lang="en"><p>AMI pour le développement de la culture de l&#39;<a href="https://twitter.com/hashtag/innovation?src=hash" target="_blank" rel="external">#innovation</a> &amp; l&#39;<a href="https://twitter.com/hashtag/entrepreneuriat?src=hash" target="_blank" rel="external">#entrepreneuriat</a> <a href="http://t.co/LYYoryFjkp" target="_blank" rel="external">http://t.co/LYYoryFjkp</a> / Me contacter si intéressés</p>&mdash; Valéry Farcy (@VF4rcy) <a href="https://twitter.com/VF4rcy/statuses/481357646847832064" target="_blank" rel="external">June 24, 2014</a></blockquote></p>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<p>Un bon sujet de devoir de vacances, non ? :-)</p>
+]]></content>
+    
+    
+  </entry>
+  
+  <entry>
     <title><![CDATA[Variations sur un même thème]]></title>
-    <link href="http://vfarcy.github.io/hexoskelet/2014/06/22/Variations-sur-un-meme-theme/"/>
-    <id>http://vfarcy.github.io/hexoskelet/2014/06/22/Variations-sur-un-meme-theme/</id>
+    <link href="http://blog.farcy.me/2014/06/22/Variations-sur-un-meme-theme/"/>
+    <id>http://blog.farcy.me/2014/06/22/Variations-sur-un-meme-theme/</id>
     <published>2014-06-22T16:39:02.000Z</published>
     <updated>2014-06-23T06:20:12.000Z</updated>
     <content type="html"><![CDATA[<p>Un blog statique, c’est un peu comme un langage compilé multi-passe en informatique. Vous produisez un contenu, du markdown flavored Github en général, et vous le passez dans une moulinette qui produit du code HMTL / CCS. Le résultat produit est ensuite mis en forme par un thème puis affiché dans le navigateur.</p>
@@ -30,51 +460,37 @@
   
   <entry>
     <title><![CDATA[Hello Hexo.io]]></title>
-    <link href="http://vfarcy.github.io/hexoskelet/2014/06/16/hello-world/"/>
-    <id>http://vfarcy.github.io/hexoskelet/2014/06/16/hello-world/</id>
-    <published>2014-06-16T13:34:59.000Z</published>
-    <updated>2014-06-23T06:29:14.000Z</updated>
+    <link href="http://blog.farcy.me/2014/06/18/hello-world/"/>
+    <id>http://blog.farcy.me/2014/06/18/hello-world/</id>
+    <published>2014-06-18T08:44:49.000Z</published>
+    <updated>2014-07-15T08:03:32.000Z</updated>
     <content type="html"><![CDATA[<p>I just installed <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>! This is my very first post. If you are interested in knowing more about this new kind of blog framework, check <a href="http://hexo.io/docs/" target="_blank" rel="external">the documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="http://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me at <a href="https://twitter.com/VF4rcy" target="_blank" rel="external">@VF4rcy</a>.</p>
 <h2 id="Quick_Start">Quick Start</h2>
 <h3 id="Install_hexo_at_the_global_level">Install hexo at the global level</h3>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre>1
-</pre></td><td class="code"><pre>$ npm install hexo -g
-</pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ npm install hexo -g</div></pre></td></tr></table></figure>
 
 <h3 id="Build_your_blogging_environment">Build your blogging environment</h3>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre>1
-</pre></td><td class="code"><pre>$ hexo ini &lt;folder&gt;
-</pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo ini &lt;folder&gt;</div></pre></td></tr></table></figure>
 
 <h3 id="Configure__config-yml">Configure _config.yml</h3>
 <p>Edit your <a href="http://hexo.io/docs/configuration.html" target="_blank" rel="external">_config.yml file</a> depending your needs. You can configure most of the options here.</p>
 <h3 id="Install_the_required_node_modules">Install the required node modules</h3>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre>1
-</pre></td><td class="code"><pre>$ npm install
-</pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ npm install</div></pre></td></tr></table></figure>
 
 <h3 id="Create_a_new_post">Create a new post</h3>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre>1
-</pre></td><td class="code"><pre>$ hexo new <span class="string">"My New Post"</span>
-</pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
 
 <p>More info: <a href="http://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
 <h3 id="Run_server">Run server</h3>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre>1
-</pre></td><td class="code"><pre>$ hexo server
-</pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
 
 <p>More info: <a href="http://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
 <h3 id="Generate_static_files">Generate static files</h3>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre>1
-</pre></td><td class="code"><pre>$ hexo generate
-</pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
 
 <p>More info: <a href="http://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
 <h3 id="Deploy_to_remote_sites">Deploy to remote sites</h3>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre>1
-</pre></td><td class="code"><pre>$ hexo deploy
-</pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
 
 <p>More info: <a href="http://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
 ]]></content>
@@ -84,8 +500,8 @@
   
   <entry>
     <title><![CDATA[Have you ever been curious about the Bing picture of the day ?]]></title>
-    <link href="http://vfarcy.github.io/hexoskelet/2014/01/03/have-you-ever-been-curious-about-the-bing-picture-of-the-day/"/>
-    <id>http://vfarcy.github.io/hexoskelet/2014/01/03/have-you-ever-been-curious-about-the-bing-picture-of-the-day/</id>
+    <link href="http://blog.farcy.me/2014/01/03/have-you-ever-been-curious-about-the-bing-picture-of-the-day/"/>
+    <id>http://blog.farcy.me/2014/01/03/have-you-ever-been-curious-about-the-bing-picture-of-the-day/</id>
     <published>2014-01-03T09:26:25.000Z</published>
     <updated>2014-06-23T09:49:04.000Z</updated>
     <content type="html"><![CDATA[<p>I have been using Bing Desktop for a long time, enjoying the beauty of the wallpaper it delivers to my desktop each day. However, I needed to go a litle bit further, curious about the picture I glanced every morning.</p>
@@ -93,14 +509,14 @@
 ]]></content>
     
     
-      <category term="english" scheme="http://vfarcy.github.io/hexoskelet/categories/english/"/>
+      <category term="english" scheme="http://blog.farcy.me/categories/english/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[Web scraping pour les nuls (appliqué à Bing Desktop )]]></title>
-    <link href="http://vfarcy.github.io/hexoskelet/2014/01/02/web-scraping-pour-les-nuls-applique-a-bing-desktop/"/>
-    <id>http://vfarcy.github.io/hexoskelet/2014/01/02/web-scraping-pour-les-nuls-applique-a-bing-desktop/</id>
+    <link href="http://blog.farcy.me/2014/01/02/web-scraping-pour-les-nuls-applique-a-bing-desktop/"/>
+    <id>http://blog.farcy.me/2014/01/02/web-scraping-pour-les-nuls-applique-a-bing-desktop/</id>
     <published>2014-01-02T17:05:59.000Z</published>
     <updated>2014-06-23T09:49:04.000Z</updated>
     <content type="html"><![CDATA[<p>J’aime Bing Desktop que j’utilise essentiellement … comme fond d’écran. Les photos sont magnifiques et se renouvellent tous les jours. Les découvrir chaque matin est une invitation au voyage.</p>
@@ -113,14 +529,14 @@
 ]]></content>
     
     
-      <category term="français" scheme="http://vfarcy.github.io/hexoskelet/categories/francais/"/>
+      <category term="français" scheme="http://blog.farcy.me/categories/francais/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[Bonne année]]></title>
-    <link href="http://vfarcy.github.io/hexoskelet/2014/01/01/bonne-annee/"/>
-    <id>http://vfarcy.github.io/hexoskelet/2014/01/01/bonne-annee/</id>
+    <link href="http://blog.farcy.me/2014/01/01/bonne-annee/"/>
+    <id>http://blog.farcy.me/2014/01/01/bonne-annee/</id>
     <published>2014-01-01T22:59:32.000Z</published>
     <updated>2014-06-23T09:49:04.000Z</updated>
     <content type="html"><![CDATA[<p>Je vous souhaite une année riche de bonheur, remplie d’émotions, belle de rencontres, passionnante de lectures et pleine d’amour.</p>
@@ -129,14 +545,14 @@
 ]]></content>
     
     
-      <category term="français" scheme="http://vfarcy.github.io/hexoskelet/categories/francais/"/>
+      <category term="français" scheme="http://blog.farcy.me/categories/francais/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[Pourquoi est-il impossible de rembourser un prêt ?]]></title>
-    <link href="http://vfarcy.github.io/hexoskelet/2013/08/16/pourquoi-est-il-impossible-de-rembourser-un-pret/"/>
-    <id>http://vfarcy.github.io/hexoskelet/2013/08/16/pourquoi-est-il-impossible-de-rembourser-un-pret/</id>
+    <link href="http://blog.farcy.me/2013/08/16/pourquoi-est-il-impossible-de-rembourser-un-pret/"/>
+    <id>http://blog.farcy.me/2013/08/16/pourquoi-est-il-impossible-de-rembourser-un-pret/</id>
     <published>2013-08-16T06:52:31.000Z</published>
     <updated>2014-06-23T09:49:04.000Z</updated>
     <content type="html"><![CDATA[<p>Pour ceux qui prennent le train en marche, voir <a href="http://www.farcy.me/2013/08/comment-se-cree-la-monnaie/" title="Comment se crée la monnaie ?" target="_blank" rel="external">l’article précédent</a> sur la création monétaire. J’y écrivais qu’il était impossible de rembourser tous les prêts dans une économie, ce qui m’a valu quelques questions auxquelles je vais tenter de répondre par un exemple très simple.</p>
@@ -151,14 +567,14 @@
 ]]></content>
     
     
-      <category term="français" scheme="http://vfarcy.github.io/hexoskelet/categories/francais/"/>
+      <category term="français" scheme="http://blog.farcy.me/categories/francais/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[Comment se crée la monnaie ?]]></title>
-    <link href="http://vfarcy.github.io/hexoskelet/2013/08/15/comment-se-cree-la-monnaie/"/>
-    <id>http://vfarcy.github.io/hexoskelet/2013/08/15/comment-se-cree-la-monnaie/</id>
+    <link href="http://blog.farcy.me/2013/08/15/comment-se-cree-la-monnaie/"/>
+    <id>http://blog.farcy.me/2013/08/15/comment-se-cree-la-monnaie/</id>
     <published>2013-08-15T14:08:33.000Z</published>
     <updated>2014-06-23T09:49:04.000Z</updated>
     <content type="html"><![CDATA[<p>Je n’ai pas le souvenir d’avoir étudié le mécanisme de création monétaire lors de mes études. Contrairement à une mauvaise compréhension largement répandue selon laquelle le privilège de création de la monnaie incombe toujours aux Etats, il est maintenant confié aux banques commerciales qui disposent grosso modo de trois leviers :</p>
@@ -179,14 +595,14 @@
 ]]></content>
     
     
-      <category term="français" scheme="http://vfarcy.github.io/hexoskelet/categories/francais/"/>
+      <category term="français" scheme="http://blog.farcy.me/categories/francais/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[Que nous dit la Dame de Condé ?]]></title>
-    <link href="http://vfarcy.github.io/hexoskelet/2013/08/14/que-nous-dit-la-dame-de-conde/"/>
-    <id>http://vfarcy.github.io/hexoskelet/2013/08/14/que-nous-dit-la-dame-de-conde/</id>
+    <link href="http://blog.farcy.me/2013/08/14/que-nous-dit-la-dame-de-conde/"/>
+    <id>http://blog.farcy.me/2013/08/14/que-nous-dit-la-dame-de-conde/</id>
     <published>2013-08-14T08:37:16.000Z</published>
     <updated>2014-06-23T09:49:04.000Z</updated>
     <content type="html"><![CDATA[<p><strong>L’histoire</strong></p>
@@ -208,409 +624,7 @@
 ]]></content>
     
     
-      <category term="français" scheme="http://vfarcy.github.io/hexoskelet/categories/francais/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[Bon plan foireux pour les grapheurs fous (pas seulement !)]]></title>
-    <link href="http://vfarcy.github.io/hexoskelet/2013/08/09/bon-plan-foireux-pour-les-grapheurs-fous-pas-seulement/"/>
-    <id>http://vfarcy.github.io/hexoskelet/2013/08/09/bon-plan-foireux-pour-les-grapheurs-fous-pas-seulement/</id>
-    <published>2013-08-09T14:45:21.000Z</published>
-    <updated>2014-06-23T09:49:04.000Z</updated>
-    <content type="html"><![CDATA[<p>Je viens de tomber sur ça :</p>
-<p><a href="http://www.amazon.fr/gp/product/B006YLYYZ6/ref=as_li_ss_il?ie=UTF8&amp;camp=1642&amp;creative=19458&amp;creativeASIN=B006YLYYZ6&amp;linkCode=as2&amp;tag=presqriensurp-21" target="_blank" rel="external"><img src="http://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&amp;ASIN=B006YLYYZ6&amp;Format=_SL160_&amp;ID=AsinImage&amp;MarketPlace=FR&amp;ServiceVersion=20070822&amp;WS=1&amp;tag=presqriensurp-21" alt=""></a><img src="http://ir-fr.amazon-adsystem.com/e/ir?t=presqriensurp-21&amp;l=as2&amp;o=8&amp;a=B006YLYYZ6" alt=""></p>
-<p>La Boogie Board, c’est son nom, est une ardoise numérique minimaliste, propre et inodore, small and simple.</p>
-<p>En terme d’usage, la Boogie est juste un chouia en dessous de ça :</p>
-<p><a href="http://www.amazon.fr/gp/product/B00005LWJ6/ref=as_li_ss_il?ie=UTF8&amp;camp=1642&amp;creative=19458&amp;creativeASIN=B00005LWJ6&amp;linkCode=as2&amp;tag=presqriensurp-21" target="_blank" rel="external"><img src="http://ws-eu.amazon-adsystem.com/widgets/q?_encoding=UTF8&amp;ASIN=B00005LWJ6&amp;Format=_SL160_&amp;ID=AsinImage&amp;MarketPlace=FR&amp;ServiceVersion=20070822&amp;WS=1&amp;tag=presqriensurp-21" alt=""></a><img src="http://ir-fr.amazon-adsystem.com/e/ir?t=presqriensurp-21&amp;l=as2&amp;o=8&amp;a=B00005LWJ6" alt=""></p>
-<p>Bref, la Boogie Board est totalement inutile. C’est en revanche un excellent moyen pour tester la procédure de retour produit de la boutique de Jeff Bezos. </p>
-<p>Hurry up, il n’y en aura pas pour tout le monde !</p>
-]]></content>
-    
-    
-      <category term="français" scheme="http://vfarcy.github.io/hexoskelet/categories/francais/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[Bank bailouts explained ]]></title>
-    <link href="http://vfarcy.github.io/hexoskelet/2013/08/03/bank-bailouts-explained/"/>
-    <id>http://vfarcy.github.io/hexoskelet/2013/08/03/bank-bailouts-explained/</id>
-    <published>2013-08-03T04:37:13.000Z</published>
-    <updated>2014-06-23T09:49:04.000Z</updated>
-    <content type="html"><![CDATA[<p>Sometime, cartoons explain the world we  live in better than the news we listen to !</p>
-<p>Did you hear about the bailouts?</p>
-<ul>
-<li>No. What about the bailouts?<br>The government has announced the taxpayers will make money on the bailouts.</li>
-<li>Should I believe them?<br>Depends. Do you believe the politicians are honest?</li>
-<li>No.<br>Do you believe the bankers are fair?</li>
-<li>No.<br>Do you believe that the 2 plus 2 equals pink?</li>
-<li>No. I definitely do not believe that the 2 plus 2 equals pink.<br>Than you should not believe we’ll make money on the bailouts.</li>
-<li>But how could the government claim such a thing?<br>By conveniently ignoring the backdoor bailouts.</li>
-<li>What is a backdoor bailout?<br>A backdoor bailout is like any other bailout, except the government lies and say it wasn’t a bailout.</li>
-<li>But what was the main bailout?<br>The main bailout was the tar-pee program.</li>
-<li>What is the tar-pee program?<br>A program where the government used the taxpayer dollars to buy the shares in the banks.</li>
-<li>Why did they buy the shares?<br>Because they said the banks were too big to fail, and if they failed,there would be too many foreclosures and no new mortgages.</li>
-<li>So after the government bought the shares, did the banks stop the foreclosures?<br>No.</li>
-<li>Did they give the mortgages?<br>No.</li>
-<li>So what did they do with the money?<br>They used it to buy other banks.</li>
-<li>But werent they already too big to fail?<br>Yes.</li>
-<li>So now they are too biggerer to fail?<br>Exactly.</li>
-<li>Which banks are too biggerer to fail?<br>The biggest are the JP Morgan Chase Bear Sterns Washington Mutual,and the Bank of America Countrywide Merill Lynch.</li>
-<li>What about the Goldman Sachs. Did they buy another bank?<br>No.</li>
-<li>Why not?<br>Because when you already own the US government, you don’t need to buy any more banks.</li>
-<li>After the other banks became too biggerer to fail, did they stop the foreclosures?<br>No</li>
-<li>Did they give the mortgages?<br>No</li>
-<li>Did they do anything at all?<br>One executive at the bank of America countrywide merill lynch paid the bill on his 70 thousand dollar desk.</li>
-<li>My god. Is this a corrupt third world country?<br>Definitely not.</li>
-<li>How could you be so sure?<br>Because nobody in a third world country would be stupid enough to spend 70 thousand dollars on a desk.</li>
-<li>Is this executive still at the bank of America Countrywide Merill<br>Lynch?<br>No. He is now the CEO of the C I T.</li>
-<li>What is the C I T ?<br>The C I T is a failed lending company.</li>
-<li>How could a failed company hire a new CEO?<br>Because they also got billions in the bailouts.</li>
-<li>Do these people have no shame?<br>When you constantly get the bailouts, you don’t care about the shame.</li>
-<li>What was the main backdoor bailout?<br>The biggest was the bailout of the AIGs.</li>
-<li>Why did they bailout the AIGs?<br>Because the AIGs owed billions to the banks, and if they went under the banks would lose too much money.</li>
-<li>And after the bailout, how much did the banks lose?<br>Nothing</li>
-<li>How is that possible?<br>Because the government decided the taxpayers should pay for all the banks mistakes</li>
-<li>Which bank did the AIGs owe the most money to?<br>The Goldman Sachs.</li>
-<li>So despite its poor decision to do too much business with a failed company, the Goldman Sachs did not lose a penny?<br>Actually, the Goldman Sachs probably profited from the failure of the AIGs.</li>
-<li>How could someone profit from the downfall of one of their biggest business partners?<br>Because while the Goldman Sachs was working with the AIGs, it was also making a secret bet that they would go under.</li>
-<li>My god, is this some kind of science fiction movie, like the star wars?<br>No.</li>
-<li>How do you know?<br>Because the evil empire in the star wars was fiction. But the evil empire that is the Goldman Sachs is very real.</li>
-<li>But weren’t the American people outraged by this manipulation of a bailout?<br>At the time, the American people did not know about the structure of this bailout.</li>
-<li>How come?<br>Because the government ordered the AIGs to lie to the people.</li>
-<li>Who in the government gave such an order?<br>The New York Fed.</li>
-<li>And who at the time was in charge of the New York Fed?<br>The Timothy Geithner.</li>
-<li>And who put the Timothy Geithner in charge?<br>The Timothy Geithner was appointed by the President Bush.</li>
-<li>What about the President Obama, and the change. Did the President Obama bring the change to the Timothy Geithner?<br>Yes</li>
-<li>So he fired him?<br>No. He promoted him to treasury secretary.</li>
-<li>That does not sound like the change we can believe in.<br>Definitely not.</li>
-<li>Were there any other bailouts?<br>Yes. During the financial crisis, the Ben Bernank loaned trillons of dollars to companies like the barclays.</li>
-<li>What is the Barclays?<br>The barclays is a european bank.</li>
-<li>Why would the Ben Bernank lend money to a European bank?<br>So they could buy the Lehman after it went bankrupt.</li>
-<li>And why did the Lehman go bankrupt?<br>Because the Ben Bernank refused to lend them any money.</li>
-<li>But why would the fed refuse to lend the American peoples money to an American bank, but then lend the money to a european bank?<br>I dont know, maybe because the Europeans have funny accents.</li>
-<li>But me and you also have funny accents. will the Ben Bernanke lend us money?<br>No</li>
-<li>Why not?<br>Because we are not bankers, and to the Ben Bernank if you are not a banker, then you simply don’t exist.</li>
-<li>So after all these bailouts, did the banks stop the foreclosures?<br>No.</li>
-<li>Did they give the mortgages?<br>No.</li>
-<li>Did they do anything at all?<br>They paid themselves big bonuses.</li>
-<li>That does not sound like a prudent use of the American peoples money.<br>When you constantly get the bailouts, you don’t care about the<br>prudence.</li>
-<li>Are any of the bailouts going on today?<br>Yes. The Ben Bernanke keeps the short term interest rates at zero.</li>
-<li>How is that a bailout?<br>Low rates mean the banks have to pay the American people very little interest in their savings accounts.</li>
-<li>That is a very nice gift from the American people to the banks.<br>Yes.</li>
-<li>And to show their gratitute, did the banks stop the foreclosures?<br>No</li>
-<li>Did they give the mortgages?<br>No.</li>
-<li>Did they do anything at all?<br>Yes. They increased the monthly fees on all bank accounts.</li>
-<li>That does not sound like the gratitude. That sounds like the screwing of the American people.<br>Yes.</li>
-<li>But isn’t it normally a bad idea to screw your own customers?<br>When you constantly get the bailouts, you don’t care about your customers.</li>
-<li>But after all these different bailouts, what did the banks do<br>with the money?<br>They invested a lot of it in the foreign countries.</li>
-<li>Why did they invest in the foreign countries?<br>Because they said in America the taxes are too high.</li>
-<li>Why are the taxes so high?<br>Because the government is broke.</li>
-<li>And why is the government broke?<br>Because they spent all their money on the bailouts.</li>
-<li>Is this all some kind of a sick joke?<br>Yes, in a way, it is.</li>
-<li>What kind of joke is it?<br>Well, do you work for a bank?</li>
-<li>No.<br>Did you get any of the bailouts?</li>
-<li>No.<br>Do you pay income taxes?</li>
-<li>Yes.<br>Then the joke is on you.</li>
-</ul>
-<p><a href="http://www.youtube.com/watch?feature=player_detailpage&amp;v=yipV_pK6HXw" target="_blank" rel="external">http://www.youtube.com/watch?feature=player_detailpage&amp;v=yipV_pK6HXw</a></p>
-<p>“The United States is the best looking horse at the glue factory.”<br>Dallas Federal Reserve President Richard W. Fisher</p>
-]]></content>
-    
-    
-      <category term="english" scheme="http://vfarcy.github.io/hexoskelet/categories/english/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[Le mariage du Globish et de la Goldlist]]></title>
-    <link href="http://vfarcy.github.io/hexoskelet/2013/07/29/le-mariage-du-globish-et-de-la-goldlist/"/>
-    <id>http://vfarcy.github.io/hexoskelet/2013/07/29/le-mariage-du-globish-et-de-la-goldlist/</id>
-    <published>2013-07-29T14:15:47.000Z</published>
-    <updated>2014-06-23T09:49:04.000Z</updated>
-    <content type="html"><![CDATA[<p>J’ai déjà évoqué <a href="http://www.farcy.me/2012/06/pourquoi-les-1500-mots-globish-ne-suffisent-ils-pas-pour-parler-anglais/" title="Pourquoi les 1500 mots Globish ne suffisent-ils pas pour parler anglais ?" target="_blank" rel="external">le Globish</a>, une méthode d’apprentissage de l’anglais qui repose sur un corpus de 1500 mots.</p>
-<p>Goldlist est une approche originale de mémorisation passive basée sur la mémoire à long terme.</p>
-<p>Est-il efficace d’utiliser Goldlist pour apprendre avec la méthode Globish ? J’ai voulu évaluer les complémentarités des deux approches, leurs intérêts et l’investissement requis. </p>
-<p>Pour l’explication, je pars d’une liste initiale de 25 mots à mémoriser.</p>
-<p>On commence par dresser cette liste de 25 lignes. Chaque ligne représente la paire à mémoriser, par exemple le mot en français et sa traduction en anglais. Cela prends entre 20 et 30 minutes pour écrire cette liste à la main. C’est très important pour la mémorisation et il ne faut surtout pas chercher à retenir en écrivant, ni utiliser de clavier. Il faut “laisser couler” est écrire “en pleine conscience”, avec sa plus belle écriture.</p>
-<p>Quand la liste est posée sur le papier, on écrit la date du jour en haut et on laisse reposer au minimum 2 semaines. Ce délai, deux semaines, correspond au temps nécessaire à l’ancrage inconscient et durable de 30% de la liste dans la mémoire à long terme.</p>
-<p>A partir de la liste initiale, deux semaines plus tard (d’ou l’intérêt d’inscrire la date), on crée une nouvelle liste comprenant 70% des mots qui ne sont pas encore stockés dans la mémoire à long terme et l’on répète le processus tant que n’est pas mémorisée toute la liste. La mémorisation “inconsciente” prend entre deux mois et deux mois et demi pour une liste de 25 termes (5 distillations doivent suffire pour mémoriser une liste).</p>
-<p>La composition d’une nouvelle liste à partir d’une ancienne mémorisée passivement à 30% s’appelle la distillation. Quand on distille une liste, pour chaque mot, on se pose la question suivante : “Je dois éliminer 30% des mots de cette liste. Quels sont ceux que je connais bien ?”.</p>
-<p>Bien connaitre un mot signifie connaitre sa signification, savoir l’orthographier, le prononcer et éventuellement connaitre les points grammaticaux associés.</p>
-<p>Pour accélérer le processus, il est possible de produire plusieurs listes de 25 mots par jour tous les jours tant que le processus de distillation n’a pas commencé. Quand il l’est, le rythme de production d’une nouvelle liste est réduit car chaque session comprend un temps de distillation et un temps de création de nouvelle liste. En pratique, on peut commencer à re-générer une liste de 25 mots lors de la quatrième distillation de chaque liste, 8 semaines après l’écriture de la liste initiale. A ce moment là, nous avons mémorisé 19 mots sur les 25 de la liste initiale maintenant réduite aux 6 mots (25 mots <em> 70% </em> 70% <em> 70% </em>70%) qui restent à mémoriser et dont 70% (4 mots) viennent compléter en 6 fois une nouvelle liste de 25 mots à distiller.</p>
-<p>Selon mes calculs, avec 1 liste de 25 mots par jour, on retiendrait 35 mots nouveaux par semaine et cela demanderait 45 minutes de travail quotidien. Si l’on considère les 1500 mots indispensables du Globish, cela demanderait donc 11 mois d’apprentissage.</p>
-<p>Très concrètement, Goldlist propose d’utiliser un cahier 24x32. Sur chaque page de gauche, en haut à gauche, on dresse une liste de 25 mots. Sur la page en face, en haut, on dresse le résultat de la première distillation, la liste de 17 lignes. Puis, dessous, on pose la liste de 12 lignes issue de la deuxième distillation. Enfin, on pose le résultat de la troisième distillation, une liste de 8 mots, au dessous de la liste initiale de 25 mots. Cette quatrième liste est distillée à son tour en une liste de 5 ou 6 mots au bout de 8 semaines sur une nouvelle page en haut à gauche. Elle est ensuite complétée en 6 fois à hauteur de 25 mots avec les quatrièmes distillations des autres listes des autres pages du cahier.</p>
-<p>&nbsp;</p>
-<p>[caption id=”” align=”aligncenter” width=”450”]<img src="http://huliganov.files.wordpress.com/2010/04/goldlistsystem.jpg?w=450&amp;h=274" alt="Image reprise du site http://huliganov.tv/goldlist-eu/" title="Image reprise du site http://huliganov.tv/goldlist-eu/"> Goldlist : deux pages, 3 distillations d’une liste initiale de 25 mots.[/caption]</p>
-<p>Revenons à l’application de Goldlist au Globish dont le vocabulaire comporte 1500 mots. Il faut donc établir 60 listes de 25 mots. À raison de 2 pages par liste, on prévoit un cahier de 120 pages qui contient 3 distillations par liste. Chaque quatrième distillation de liste produit 5 mots, soient 5x60=300 mots pour les 60 listes. On regroupe alors ces mots en 12 listes de 25 mots chacune, ce qui représente 24 pages supplémentaires qui peuvent contenir jusqu’à 3 distillations, ce qui devrait suffire à finaliser l’apprentissage des 300 derniers Globish mots résiduels.</p>
-<p>Finalement, le rendement ne m’apparaît pas extraordinaire. L’approche, en revanche, me semble plutôt séduisante.</p>
-<p>Sources :<a href="http://huliganov.tv/goldlist-eu/" target="_blank" rel="external"> http://huliganov.tv/goldlist-eu/</a></p>
-]]></content>
-    
-    
-      <category term="français" scheme="http://vfarcy.github.io/hexoskelet/categories/francais/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[Finalement, une startup, c'est quoi ?]]></title>
-    <link href="http://vfarcy.github.io/hexoskelet/2013/07/17/finalement-une-startup-cest-quoi/"/>
-    <id>http://vfarcy.github.io/hexoskelet/2013/07/17/finalement-une-startup-cest-quoi/</id>
-    <published>2013-07-17T04:53:51.000Z</published>
-    <updated>2014-06-23T09:49:04.000Z</updated>
-    <content type="html"><![CDATA[<p>Selon Eric Ries, une start-up est une institution humaine ayant pour objet de créer un nouveau produit, ou un nouveau service, dans des conditions fortes d’incertitude. Pour Steve Blank, c’est une organisation provisoire à la recherche d’un business model reproductible qui supporte des changements d’échelles (scalable).</p>
-<p>La start-up teste et explore sont environnement jusqu’à ce qu’elle valide son business model et sa proposition de valeur. Ensuite, mais elle n’est alors plus une start-up, elle se développe sur son marché où elle déroule sa stratégie. Le lean, l’agilité, la rapidité d’exécution et la zone d’incertitude laissent place à la définition des objectifs, aux plans stratégiques et aux compromis.</p>
-<p>La vision laisse place à la mission, business as usual pour ainsi dire.</p>
-<p>&nbsp;</p>
-<p>&nbsp;</p>
-]]></content>
-    
-    
-      <category term="français" scheme="http://vfarcy.github.io/hexoskelet/categories/francais/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[Nettoyage]]></title>
-    <link href="http://vfarcy.github.io/hexoskelet/2013/07/07/nettoyage/"/>
-    <id>http://vfarcy.github.io/hexoskelet/2013/07/07/nettoyage/</id>
-    <published>2013-07-07T08:09:44.000Z</published>
-    <updated>2014-06-23T09:49:04.000Z</updated>
-    <content type="html"><![CDATA[<p>Retour au minimalisme avec la mise en oeuvre du thème libre “Zen habits” de Léo Babauta.</p>
-<p>La version modifiée par Mike Walsh ne fonctionnait pas sur mon Wordpress. J’ai modifié quelques lignes de PHP et tout est rentré dans l’ordre. Le package complet, <a href="https://github.com/vfarcy/zh2plusplus" title="zh2++" target="_blank" rel="external">zh2plusplus</a>, est fonctionnel et disponible sur <a href="https://github.com/vfarcy/zh2plusplus" title="zh2++" target="_blank" rel="external">Github</a>. Il est libre de tous droits, prêt à être installé par qui le souhaite.</p>
-<p>Si vous êtes intéressés, pensez à lire le README sur Github pour connaître les adaptations nécessaires; essentiellement une page Wordpress à créer pour accéder aux billets archivés, rien de bien compliqué.</p>
-<p>Le 404 renvoie sur un Haïku, j’adore.</p>
-<p>&nbsp;</p>
-]]></content>
-    
-    
-      <category term="français" scheme="http://vfarcy.github.io/hexoskelet/categories/francais/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[Lingocracy : Improve a foreign language while reading any news on the web (french inside)]]></title>
-    <link href="http://vfarcy.github.io/hexoskelet/2013/04/13/lingocraty-improve-a-foreign-language-while-reading-any-news-on-the-web-french-inside/"/>
-    <id>http://vfarcy.github.io/hexoskelet/2013/04/13/lingocraty-improve-a-foreign-language-while-reading-any-news-on-the-web-french-inside/</id>
-    <published>2013-04-13T13:09:57.000Z</published>
-    <updated>2014-06-23T09:49:04.000Z</updated>
-    <content type="html"><![CDATA[<p>Max et Yan se rencontrent à Shanghai pendant leurs études. Rapidement, ils découvrent qu’ils aiment les langues étrangères et font le même constat :  une approche innovante est nécessaire pour l’apprentissage des langues. Polyglottes et visiteurs du monde, il connaissent bien pour les avoir vécues les limites des approches d’apprentissages traditionnelles  : des sujets pédagogiques généralistes, de la grammaires, du par cœur, des listes de verbes à ne pas en finir.</p>
-<p>Cette recette, Max aussi l’a vécue. On lui demande de l’appliquer lorsqu’il apprend le Chinois <del>à Shanghaï</del> en Belgique.  Pas vraiment emballé, il décide alors de créer sa propre méthode. Sa première décision : faire l’école buissonnière, le temps de réfléchir à une approche qui lui convienne. Par chance, il trouve rapidement la bonne réponse. La bonne réponse, c’est la méthode qui fonctionne pour lui. Il apprend par lui même, pendant un an, en utilisant des ressources qui le passionnent. Le jour de l’examen, à l’étonnement quasi général, Max termine en pole position et est récompensé par un an d’études supplémentaires, tous frais payés à l’université Fudan, une des plus anciennes et des plus prestigieuses universités de Chine !</p>
-<p>Pendant ce temps, j’écris de mon côté sur 2570words.com :</p>
-<p><em>“A l’heure ou se pose la question de savoir si le web rend plus bête, ou au contraire, s’il développe une nouvelle forme d’intelligence, 2570words.com prend à contre pied les modes d’apprentissages traditionnels des langues étrangères. Il propose une manière différente, plus fun, plus connectée, plus ouverte et plus personnelle de vivre cette formidable expérience. 2570words.com est le point d’entrée d’une pédagogie non conventionnelle, d’astuces, de méthodes simples et futées. Si vous ne pouvez toujours pas passer une commande au restaurant, regarder un film sans sous-titres, avoir une conversation dans la rue après avoir <em>passé des années à apprendre  avec les méthodes clasiques, alors 2570words.com est probablement la solution.”</em></em></p>
-<p>Dans la foulée, je lançais alors une version expérimentale quasi identique, je l’apprendrai bien plus tard, à ce que Yan et Max développaient de leur côté.</p>
-<p>L’idée de Max, Yan et la mienne est simple : on apprend en se faisant plaisir, sur la base de la lecture traitant de sujets qui nous passionnent, ou a minima, qui nous intéressent.</p>
-<p>Il y a trois mois, l’occasion m’est donnée de participer à la sélection des 12 startups qui rejoindrons pendant 6 mois le camping au Palais Brongniart. Lors des premières présentations, je suis très surpris lorsque Yan et Max présentent Lingocracy, le résultat de leur travail. Lingocracy et 2570words.com sont des frères jumeaux  Ils partent du même constat et proposent la même approche autour du plaisir d’apprendre.</p>
-<p>Aux côtés de 11 startups en coopétition, l’équipe de Lingocracy est finalement retenue par le jury parmi les 190 autres qui postulent.</p>
-<p>Yan et Max me proposent alors de les accompagner dans la maturation de leur projet. J’accepte immédiatement avec plaisir. Nous convenons de nous voir une fois par semaine pour avancer ensemble. Notre troisième meeting se tenait hier. Nous avons notamment passé en revue les retours des utilisateurs, plus nombreux depuis lundi dernier, et priorisé les éléments du backlog pour les futures releases.</p>
-<p>Si l’aventure vous intéresse, il y a une place de libre dans l’équipe pour travailler sur le front end. Au menu, javascipt (angularjs), HTML, CSS, responsive design and Co. Profitez-en, il n’y en aura pas pour tout le monde, seuls les premiers pourront être servis, et c’est un vrai délice !</p>
-<p>Oups, encore un dernier point.</p>
-<p>Au delà des compétences techniques, si vous n’êtes pas intéressés par les langues étrangères, si vous n’êtes pas curieux, si vous ignorez ce que signifie “connecting the dots”, alors travaillez ces sujets avant de frapper à la porte :-)</p>
-<p>Oups, encore un dernier dernier point.</p>
-<p>Oui, c’est rémunéré (mais bon, c’est une startup)</p>
-<p>Pour en savoir plus :</p>
-<ul>
-<li>Lingocracy : <a href="http://www.lingocracy.com/" target="_blank" rel="external">http://www.lingocracy.com/</a> (aucun compte n’est nécessaire pour essayer)</li>
-<li>Faites entendre votre voix : <a href="https://lingocracy.uservoice.com/" target="_blank" rel="external">https://lingocracy.uservoice.com/</a><br>&nbsp;</li>
-</ul>
-<!--cforms name="Vérification"-->]]></content>
-    
-    
-      <category term="français" scheme="http://vfarcy.github.io/hexoskelet/categories/francais/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[Le bitcoin est-il un poisson d'avril ?]]></title>
-    <link href="http://vfarcy.github.io/hexoskelet/2013/04/01/le-bitcoin-est-il-un-poisson-davril/"/>
-    <id>http://vfarcy.github.io/hexoskelet/2013/04/01/le-bitcoin-est-il-un-poisson-davril/</id>
-    <published>2013-04-01T15:11:32.000Z</published>
-    <updated>2014-06-23T09:49:04.000Z</updated>
-    <content type="html"><![CDATA[<p>Le bitcoin est une forme de monnaie virtuelle utilisée pour acheter des biens et des services en ligne. C’est un phénomène étrange et supergeeky qui associe le peer-to-peer et la cryptographie.</p>
-<p>Aujourd’hui, 17h30, il y a 10 978 825 Bitcoins en circulation. (C’est très facile d’être précis avec une monnaie numérique). Avec une capitalisation de 1 163 645 662 USD (montent légèrement supérieur à ce que facebook a déboursé pour acheter Instagram), la Bitcoin monnaie n’est pas encore sur le point de remplacer les monnaies officielles. </p>
-<p>Prenons pourtant un instant et comparons paypal et Bitcoin. N’importe qui peut implémenter un système PayPal sur un serveur en quelques clics et faire transiter un flux financier jusqu’à sa banque. Avec Bitcoin, c’est techniquement aussi facile, mais la différence est qu’il n’y a pas de banque. Le système est entièrement décentralisé, le code informatique qui régit les échanges est ouvert et le journal des transactions est distribué publiquement.</p>
-<p>Le Bitcoin est-il alors une monnaie d’avenir à prendre au sérieux ? N’est ce pas plutôt une mauvaise blague (un poisson) à visée spéculative qui viserait à parodier une économie mondiale chahutée ? Son fondateur, connu sous le pseudonyme de Satoshi Nakamoto, reste inconnu ? Pourquoi ? </p>
-<p>Je n’y vois pas là une blague, mais plutôt matière à réflexion.</p>
-<p>La technologie utilisée est complètement fonctionnelle depuis plus de quatre ans et le système fonctionne à merveille. Pour preuve, ce pic des recherches Google concernant le terme “bitcoin” que l’on ne manque pas d’associer à la récente crise Chypriote, comme si la monnaie virtuelle était une monnaie refuge dans ce monde si réel où l’on observe que les requêtes les plus nombreuses proviennent de Russie, nation très impliquée dans l’économie Chypriote.</p>
-<script type="text/javascript" src="//www.google.fr/trends/embed.js?hl=fr&q=bitcoin&cmpt=date&content=1&cid=TIMESERIES_GRAPH_0&export=5&w=500&h=330"></script>
-
-<script type="text/javascript" src="//www.google.fr/trends/embed.js?hl=fr&q=bitcoin&cmpt=date&content=1&cid=GEO_MAP_0_1&export=5&w=500&h=530"></script>
-
-<p>L’émergence d’une offre de monnaie virtuelle et globale au-delà de la portée et de contrôle de tout gouvernement semble donc bien réelle. Tant que l’Internet reste disponible, Bitcoin continue de se répandre selon un rythme programmé, pas trop rapidemenet pour ne pas dévaloriser la monnaie, mais pas trop lentement non plus pour pouvoir maintenir la liquidité de ce marché en devenir.</p>
-<p>Quant à savoir la motivation et la finalité de cette belle horlogerie, à supposer qu’elles existent, je sèche !</p>
-<!--cforms name="Vérification"-->]]></content>
-    
-    
-      <category term="français" scheme="http://vfarcy.github.io/hexoskelet/categories/francais/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[Démonstration : 12 = 12 - 7 - 3 ?]]></title>
-    <link href="http://vfarcy.github.io/hexoskelet/2013/03/15/demonstration-12-12-7-3/"/>
-    <id>http://vfarcy.github.io/hexoskelet/2013/03/15/demonstration-12-12-7-3/</id>
-    <published>2013-03-15T18:15:56.000Z</published>
-    <updated>2014-06-23T09:49:04.000Z</updated>
-    <content type="html"><![CDATA[<p>L’Iphone que je porte à la ceinture vibre. J’y porte la main, le sors de son étuis et lis le mail que je viens de recevoir, le temps de comprendre que je vais griller le  feu rouge.</p>
-<p>Je jette un œil dans le rétro central. La voiture qui me suit est suffisamment loin derrière pour me laisser le temps de freiner sans encombre.</p>
-<p>Sans être brutal, le freinage est soutenu. Mon véhicule est immobilisé, mais les trois quarts empiètent sur la ligne du feu rouge. Il reste suffisamment de distance derrière pour reculer et laisser ainsi un très confortable passage aux voitures qui viennent à ma gauche.</p>
-<p>J’enclenche la marche arrière, étends le bras droit sur le siège droit et tourne la tête en direction de la voiture qui me suit. De nouveau à l’arrêt, je tourne la tête dans le sens de la marche, prêt à repartir lorsque le feu passera au vert.</p>
-<p>Et là …</p>
-<p>Je découvre, surgie de la gauche, la voiture coiffée d’un gyrophare bleu. Elle est immobilisée en travers de la route et me barre le passage.</p>
-<p>Depuis la lecture du mail malheureux, j’ai gardé l’Iphone en main. Je le laisse négligemment tomber au pied du levier de vitesse quand je découvre l’agent de police, droit comme un I au niveau de la portière gauche.</p>
-<p>J’attends un salut qui ne vient pas. Il reste de marbre et me fixe des yeux. J’abaisse la vitre.</p>
-<ul>
-<li>« Vous savez pourquoi nous vous arrêtons ? »</li>
-<li>« Oui, à cause du feu rouge et du téléphone. J’attends un coup de fil important, le téléphone a sonné, je l’ai saisi, le temps de m’apercevoir que le feu était rouge, puis j’ai stoppé mon véhicule. »</li>
-<li>«Vous venez de commettre une double infraction. Elle va vous coûter 7 points : 3 pour le téléphone et 4 pour le feu rouge. Garez-vous sur la droite et coupez le moteur »<br>Je pense : quel double abruti je suis !</li>
-</ul>
-<p>D’abord, tous les mails peuvent attendre d’être lus. Je le sais. C’est même une règle de vie que je me suis fixée. Ensuite, pourquoi donc m’être embarqué dans cette justification foireuse du coup de fil important alors que que je viens de consulter un mail !</p>
-<p>La bourde est commise. C’est désagréable, mais c’est ainsi. Je reviens sur terre, ici et maintenant.</p>
-<p>J’ai une seule certitude : ce qui vient de se produire. La suite reste à construire. Je n’exprimerai aucune supposition, j’aurai une parole impeccable face à ce grand bonhomme visiblement pas bavard. Je serai simple, factuel, précis et prêt à payer.</p>
-<p>Le fonctionnaire de police revient à ma hauteur alors que je viens juste de couper le moteur.</p>
-<ul>
-<li>« Vous avez votre permis de conduire ?»</li>
-<li>« Oui »<br>J’ouvre mon portefeuille est lui tend le formulaire rose.</li>
-</ul>
-<p>Il le saisi et entreprend de l’examiner sous toutes ses coutures. Ce faisant, il me rappelle sans me regarder, sur un ton fataliste et donneur de leçons, que je vais perdre 7 points, 4 et 3.</p>
-<p>J’attends l’annonce du montant de la prune. Il tourne le papier en mains, le retourne et le tourne encore, le déplie puis le lit. Pendant ce temps, je fixe son visage. Quelle expression va-t-il prendre pour m’annoncer la douloureuse ?</p>
-<p>Je discerne un sourire naissant. Je ne me l’explique pas. Il s’adresse à sa collègue venue le rejoindre :</p>
-<ul>
-<li>« Son permis est écrit à la main, on pourrait croire que c’est un faux ».<br>Je ne dis rien. Suis-je tombé sur un type vraiment pas comique qui va me chercher des noix là où il n’y en a pas ? 7 points en moins ne suffisent pas ?</li>
-</ul>
-<p>J’attends.</p>
-<p>Poursuivant sa lecture du document, il continue de s’adresser à sa collègue et reprend mots pour mots ce qu’il vient de dire, mais en complétant :</p>
-<ul>
-<li>« Il est écrit à la main, on pourrait croire que c’est un faux. J’ai le même ».</li>
-<li>« J’ai le même ».</li>
-<li>« Quand vous a t’il été délivré ? Dans la Somme ? » me demande t’il ?<br>Je réponds d’un simple « oui ».</li>
-</ul>
-<p>Puis il continue sur un ton exclamatif .</p>
-<ul>
-<li><p>« Il a été délivré il y a 28 ans, dans la Somme ! , et il est écrit à la main, j’ai le même (se tournant vers sa collègue).»<br>Je l’ai en face de moi depuis 3 minutes maintenant. Où veut-il en venir ? Ne serait’il pas Picard lui aussi ? Abbeville n’est pas si connue que ça, connaîtrait-il ? Serait-il Abbevillois ? Est-il proche de moi en âge ? Serait-ce possible qu’il soit un copain d’enfance ?</p>
-</li>
-<li><p>« Vous l’avez passé à Abbeville ? »<br>Constant, je réponds du même simple « oui » et je tente « et vous ? »</p>
-</li>
-</ul>
-<p>Il ne me répond pas et se tourne avec sa collègue :</p>
-<ul>
-<li><p>« Que faisons-nous ? »<br>Elle ne répond rien.</p>
-</li>
-<li><p>«Nous ne sommes pas là pour la circulation, nous sommes là pour un cambriolage. Votre infraction n’est pas franche. Combien vous reste-t’il de points ? »</p>
-</li>
-<li>« 12 »</li>
-<li>« Allez-y, et faite attention, où allez-vous ? »</li>
-<li>“Chez moi, merci, au revoir”<br>&nbsp;</li>
-</ul>
-<!--cforms name="Vérification"-->]]></content>
-    
-    
-      <category term="français" scheme="http://vfarcy.github.io/hexoskelet/categories/francais/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[The first round of the selection of Le Camping season 4 is over]]></title>
-    <link href="http://vfarcy.github.io/hexoskelet/2013/02/10/the-first-round-of-the-selection-of-le-camping-season-4-is-over/"/>
-    <id>http://vfarcy.github.io/hexoskelet/2013/02/10/the-first-round-of-the-selection-of-le-camping-season-4-is-over/</id>
-    <published>2013-02-10T09:59:19.000Z</published>
-    <updated>2014-06-23T09:49:04.000Z</updated>
-    <content type="html"><![CDATA[<p>57 startups from the 170 who have submitted their applications have been selected.</p>
-<p>Our mission, now, is to spot the best 25 startups. For that, the Google hangout interviews that will start tomorrow are the perfect occasion to find out more about the teams, the ideas, the products, to double-check if all the founders are able to attend the program from beginning to end, to challenge their motivation, their spirit and their ability to show their passion for their product.</p>
-<p>Le Camping kept the criteria used for the first round: a complementary team with an innovative and disruptive product or technology.</p>
-<p>Along with 4 others mentors, for an afternoon, I have been assigned as an evaluator for 7 startups :</p>
-<ul>
-<li>Lingocracy</li>
-<li>The Faubourg</li>
-<li>Sharenity</li>
-<li>Znapp.it</li>
-<li>Popp!</li>
-<li>Blackbird</li>
-<li>LearningShelter<br>The process will be the same for each interview : a 5 minutes pitch followed by a 10 minutes discussion. English will be used when an international mentor is present. We won’t use the 6 stars system notation anymore. We are asked to show our feeling and urged to imagine we’re gonna invest in those startups. Finally, we will have to say a YES or a NO and leave a comment to explain our decision to help Le Camping to choose the 25 winners for the next phase.</li>
-</ul>
-<p>Stay tuned …</p>
-<p>&nbsp;</p>
-<!--cforms name="Vérification in english"-->]]></content>
-    
-    
-      <category term="english" scheme="http://vfarcy.github.io/hexoskelet/categories/english/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[Behind the scenes of le camping season 4]]></title>
-    <link href="http://vfarcy.github.io/hexoskelet/2013/01/25/behind-the-scenes-of-le-camping-season-4/"/>
-    <id>http://vfarcy.github.io/hexoskelet/2013/01/25/behind-the-scenes-of-le-camping-season-4/</id>
-    <published>2013-01-25T21:20:36.000Z</published>
-    <updated>2014-06-23T09:49:04.000Z</updated>
-    <content type="html"><![CDATA[<p>Do you know Le Camping ?</p>
-<p>As part of Silicon Sentier, le camping brings to start-ups an intense, collaborative and ambitions program. It participates in the emergence of a highly innovative ecosystem in France.</p>
-<p>Le Camping opened applications for Season 4 about 40 days ago. During this application period, many startups came to Le Camping to learn more about the program and experienced the environment that makes it so unique. About 100 entrepreneurs came to attend the Insiders Sessions that have been going on since December.</p>
-<p>Today, I’m very happy to have been made an Evaluator of Le Camping Season 4 to evaluate 8 applications.</p>
-<p>Phase 1 is scheduled from January 22th to February 5th.Thirty of Le Camping’s mentors and experts, and also Campers from seasons 1, 2 and 3, are assigned relevant applications based on our expertise and skills. Many are entrepreneurs, some are investors and others are experts in a particular field. This wide variety of skills makes for an excellent panel of evaluators.</p>
-<p>Each application is reviewed by at least 3 evaluators and rated on a 6-star system based on 6 main criteria:</p>
-<ul>
-<li>Level of  innovation,</li>
-<li>Team,</li>
-<li>Social proof,</li>
-<li>Technology,</li>
-<li>Ability to gain traction,</li>
-<li>Product.<br>We, as evaluators, will add comments for the teams in order to provide them feedbacks.</li>
-</ul>
-<p>Phase 2 of the selection process will start in 10 days. Stay tuned.</p>
-<p>&nbsp;</p>
-<!--cforms name="Vérification in english"-->]]></content>
-    
-    
-      <category term="english" scheme="http://vfarcy.github.io/hexoskelet/categories/english/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[Nexus 7 troubleshooting : is it just a matter of magnetic snap case ?]]></title>
-    <link href="http://vfarcy.github.io/hexoskelet/2013/01/13/is-it-just-a-matter-of-case/"/>
-    <id>http://vfarcy.github.io/hexoskelet/2013/01/13/is-it-just-a-matter-of-case/</id>
-    <published>2013-01-13T12:07:32.000Z</published>
-    <updated>2014-06-23T09:49:04.000Z</updated>
-    <content type="html"><![CDATA[<p>I <a href="http://farcy.me/blog/dear-larry-dear-tim-will-you-work-together" title="Dear Larry, dear Tim, will you work together ?" target="_blank" rel="external">told you</a> recently about my Nexus 7 troubleshooting when connected to the iPhone.</p>
-<p>I explained that the tablet randomly flashed,brought me back to the slide lock screen, restarted,and went well for a short time until the screen locked again.</p>
-<p>Weird indeed.</p>
-<p>While waiting for Larry and Tim’s response, I played around with the Nexus and the Iphone, trying to fix the bug.</p>
-<p>I had the tablet in a case when the bug was happening. Don’t tell my why, I eventually took the Nexus out of the case, and … it didn’t do it anymore. I tried to replicate it out of the case, but I wasn’t able to, so I put it back in the case and tried to replicate it, and yes, same issue again.</p>
-<p>Now, I am not 100% sure that it is the case. Could the magnetic built-in power off system of the snap case disturb the device ?</p>
-<p>I will be playing around with it a bit more to see what else causes this issue.</p>
-<p><!--cforms name="Vérification in english"-->Do you remember ?</p>
-]]></content>
-    
-    
-      <category term="english" scheme="http://vfarcy.github.io/hexoskelet/categories/english/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[Dear Larry, dear Tim, will you work together ?]]></title>
-    <link href="http://vfarcy.github.io/hexoskelet/2013/01/08/dear-larry-dear-tim-will-you-work-together/"/>
-    <id>http://vfarcy.github.io/hexoskelet/2013/01/08/dear-larry-dear-tim-will-you-work-together/</id>
-    <published>2013-01-08T15:27:58.000Z</published>
-    <updated>2014-06-23T09:49:04.000Z</updated>
-    <content type="html"><![CDATA[<p>Mister Google, I have been using your Google’s Nexus 7 tablet for one month now.</p>
-<p>Many things have been written about your fantastic device. It is a perfect, low-cost, rugged, easy tablet that works for the whole family. So, I won’t write more about your tablet’s technical specifications, how it is the perfect device to travel with, well priced, how it fits very well in hand,the 7” form factor being the perfect size for nomadic life and work. Your hardware really rocks and your open ecosystem realy fits my way of thinking. So open, but so huge too;I’m sometimes not comfortable with how big you are, even if you pretend  that you are not evil.</p>
-<p>Mister Apple, I’m definitely not a fan boy. I feel concerned about your products being produced at low-cost in China, regarding the money I have to spend to acquire it. But honestly, I recognize that I have been satisfied with your IOS mobile phone. I own an old 4S, the first  Apple product I purchased after discussing it a long time with friends of mine whore are among Apple’s early adopters. They convinced me of the simplicity of your products that simply do their job as I expect them to. I finally decided to buy your mobile phone. Months latter, I didn’t upgrade to the Iphone 5. I don’t regret my initial choice which suits my needs,even if some days I’m not really comfortable with the closed nature of your ecosystem. When in doubt, I tell myself it’s probably the cost to pay to have a device than hasn’t crashed once since I got it, wich never happened to your competitor’s products.</p>
-<p>The Nexus 7, alone, works fine, the iPhone as well.</p>
-<p>By the way, my point here, Misters, is to share an issue I encounter since I use my Nexus 7 connected  to my Iphone 4 via a bluetooth connexion.</p>
-<p>Larry and Tim, I know that you in a strong competition to bringing your customers the best experience while developping yourselves. I have activated the bluetooth tether mode on the Nexus  and the Hotspot functionality on the iPhone, and the truth is that it seems that your two devices don’t work well together.</p>
-<p>I struggle hard to reproduce the bug, but I think I eventually succeeded today while <a href="http://lacantine.org/blog/un-espace-de-coworking" title="I" target="_blank" rel="external">co-working @lacantine</a>. So, please take a few seconds to consider this.Here I go :</p>
-<p>I have discovered that the Nexus 7 bugs when it is connected to the Internet through the iPhone’s 3G connexion. The things only happen if the iPhone loses its internet connexion. In such a situation, the Nexus 7 suddenly disconnected from the internet of course, returns to the login screen and I have to enter the password again and again, sometimes 3 times or more. Sometimes, I even have to reboot the tablet to continue the work I was doing before the iPhone lost its 3G signal. The bug isn’t reproduced if I turn the connexion off, which makes me think I have identified the root cause of the bug.</p>
-<p>I don’t know if I am the only one to connect the Nexus 7 with an iPhone 4 over Bluetooth and would be more than happy if you could fix what makes your two devices not function correctly when linked to each other.</p>
-<p>Kind regards,</p>
-<!--cforms name="Vérification in english"-->
-
-<p>&nbsp;</p>
-]]></content>
-    
-    
-      <category term="english" scheme="http://vfarcy.github.io/hexoskelet/categories/english/"/>
+      <category term="français" scheme="http://blog.farcy.me/categories/francais/"/>
     
   </entry>
   

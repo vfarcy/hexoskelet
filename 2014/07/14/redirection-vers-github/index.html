@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  
+  <title>Comment rediriger un nom de domaine vers un blog statique hébergé sur Github ? | Meandering thoughts...</title>
+  <meta name="viewport" content="width=device-width">
+  <meta name="description" content="Github autorise l’hébergement de pages web statiques et offre la possibilté d’y accéder à partir d’un nom de domaine du type sousdomaine.domaine.tld. C’est gratuit (hors le coût du nom de domaine) et">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Comment rediriger un nom de domaine vers un blog statique hébergé sur Github ?">
+<meta property="og:url" content="http://blog.farcy.me/2014/07/14/redirection-vers-github/">
+<meta property="og:site_name" content="Meandering thoughts...">
+<meta property="og:description" content="Github autorise l’hébergement de pages web statiques et offre la possibilté d’y accéder à partir d’un nom de domaine du type sousdomaine.domaine.tld. C’est gratuit (hors le coût du nom de domaine) et">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Comment rediriger un nom de domaine vers un blog statique hébergé sur Github ?">
+<meta name="twitter:description" content="Github autorise l’hébergement de pages web statiques et offre la possibilté d’y accéder à partir d’un nom de domaine du type sousdomaine.domaine.tld. C’est gratuit (hors le coût du nom de domaine) et">
+
+  
+    <link rel="alternative" href="http://feeds.feedburner.com/vfarcy?format=xml" title="Meandering thoughts..." type="application/atom+xml">
+  
+  
+    <link rel="icon" href="favicon.png">
+  
+  <link rel="stylesheet" href="/css/style.css" type="text/css">
+
+  <!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-2992740-18']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+</head>
+<body>
+  <div id="container">
+    <div class="mobile-nav-panel">
+	<i class="icon-reorder icon-large"></i>
+</div>
+<header id="header">
+	<h1 class="blog-title">
+		<a href="/">Meandering thoughts...</a>
+	</h1>
+	<nav class="nav">
+		<ul>
+			<li><a href="/">Home</a></li><li><a href="/archives">Archives</a></li>
+			<li><a id="nav-search-btn" class="nav-icon" title="Search"></a></li>
+			<li><a href="http://feeds.feedburner.com/vfarcy?format=xml" id="nav-rss-link" class="nav-icon" title="RSS Feed"></a></li>
+		</ul>
+	</nav>
+	<div id="search-form-wrap">
+		<form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><input type="submit" value="&#xF002;" class="search-form-submit"><input type="hidden" name="q" value="site:http://blog.farcy.me"></form>
+	</div>
+</header>
+    <div id="main">
+      <article id="post-redirection-vers-github" class="post">
+	<footer class="entry-meta-header">
+		<span class="meta-elements date">
+			<a href="/2014/07/14/redirection-vers-github/" class="article-date">
+  <time datetime="2014-07-14T16:04:49.000Z" itemprop="datePublished">Jul 14 2014</time>
+</a>
+		</span>
+		<span class="meta-elements author">Valéry Farcy</span>
+		<div class="commentscount">
+			
+				<a href="http://blog.farcy.me/2014/07/14/redirection-vers-github/#disqus_thread" class="article-comment-link">Comments</a>
+			
+		</div>
+	</footer>
+	
+	<header class="entry-header">
+		
+  
+    <h1 class="article-title entry-title" itemprop="name">
+      Comment rediriger un nom de domaine vers un blog statique hébergé sur Github ?
+    </h1>
+  
+
+	</header>
+	<div class="entry-content">
+		
+    	<p>Github autorise l’hébergement de pages web statiques et offre la possibilté d’y accéder à partir d’un nom de domaine du type <code>sousdomaine.domaine.tld</code>. C’est gratuit (hors le coût du nom de domaine) et pratique.</p>
+<p>C’est le moyen que j’utilise pour héberger ce blog : son repository public est chez github : <a href="https://github.com/vfarcy/hexoskelet" target="_blank" rel="external">https://github.com/vfarcy/hexoskelet</a>, le code du site est stocké sous la branche <code>master</code>, la version statique générée est sous la branche <code>gh-pages</code> à laquelle vous accédez via la redirection <a href="http://blog.farcy.me" target="_blank" rel="external">http://blog.farcy.me</a>.</p>
+<p>Il existe de nombreux tutoriaux qui indiquent la marche à suivre, mais ils sont souvent anciens, ou bien compliqués. Je vous résume la méthode que j’ai utilisée avec succès.</p>
+<p>Vous avez deux choses à faire. D’abord, vous devez créer un enregistement <code>CNAME</code> qui pointe vers votre adresse github (du type votrenom.github.io) à partir du panneau de contrôle de votre registar. Ensuite, vous devez créer un fichier CNAME dans votre repository qui contient l’adresse du type <code>sousdomaine.domaine.tld</code>.</p>
+<p>Dans la pratique, après avoir créé l’enregistrement <code>CNAME</code> (attention, certains registars réclament une adresse du type <code>sousdomaine.domaine.tld.</code>, <strong>vous noterez le point final</strong>), vous laisserez suffisamment de temps pour que le DNS se propage. Vous pouvez vérifier la progression de la propagation en utilisant un service comme whatismydns.com. Chez moi, une vingtaine de minutes ont suffi pour obtenir une propagation quasi totale.</p>
+<p>Quand cette première étape est passée, il vous reste à créer chez Github un fichier <code>CNAME</code> comportant le même sous domaine <code>sousdomaine.domaine.tld</code>, <strong> cette fois sans le point final !</strong>, et à patienter (encore …) une quinzaine de minutes. Attention, si vos pages sont hébergées dans un repository Github du  type <code>login.github.io</code>, alors le fichier <code>CNAME</code> doit se trouver sous la branche <code>master</code> tandis qu’il doit se trouver sous la branche <code>gh-pages</code> si votre repository est créé sous <code>login.github.com\nomdurepos</code>.</p>
+<p>Pour finir, si vous utilisez le générateur de blog hexo.io, vous pouvez utiliser le plugin <code>hexo-generator-cname</code> (<a href="https://github.com/leecrossley/hexo-generator-cname" target="_blank" rel="external">https://github.com/leecrossley/hexo-generator-cname</a>) qui va créer automatiquement le fichier <code>CNAME</code> au moment du déploiment du site : <code>hexo deploy</code>.</p>
+
+    
+	</div>
+	<footer class="entry-footer">
+		<div class="entry-meta-footer">
+			<span class="category">
+				
+			</span>
+			<span class="tags">
+				
+			</span>
+		</div>
+	</footer>
+	
+    
+<nav id="article-nav">
+  
+    <a href="/2014/07/20/Arrière toute-/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          Arrière toute
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2014/07/13/Mise-en-place-du-feed-RSS/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">
+        
+          Mise en place du nouveau lien RSS
+        
+      </div>
+    </a>
+  
+</nav>
+
+  
+</article>
+
+
+
+
+<section id="comments">
+  <div id="disqus_thread">
+    <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  </div>
+</section>
+
+    </div>
+    <div class="mb-search">
+  <form action="//google.com/search" method="get" accept-charset="utf-8">
+    <input type="search" name="q" results="0" placeholder="Search">
+    <input type="hidden" name="q" value="site:blog.farcy.me">
+  </form>
+</div>
+<footer id="footer">
+	<h1 class="footer-blog-title">
+		<a href="/">Meandering thoughts...</a>
+	</h1>
+	<span class="copyright">
+		&copy; 2014 Valéry Farcy<br>
+		Modify from <a href="http://sanographix.github.io/tumblr/apollo/" target="_blank">Apollo</a> theme, designed by <a href="http://www.sanographix.net/" target="_blank">SANOGRAPHIX.NET</a><br>
+		Powered by <a href="http://hexo.io/" target="_blank">Hexo</a>
+	</span>
+</footer>
+    
+<script>
+  var disqus_shortname = 'wikifarcyme';
+  
+  var disqus_url = 'http://blog.farcy.me/2014/07/14/redirection-vers-github/';
+  
+  (function(){
+    var dsq = document.createElement('script');
+    dsq.type = 'text/javascript';
+    dsq.async = true;
+    dsq.src = '//go.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script>
+
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+<link rel="stylesheet" href="/fancybox/jquery.fancybox.css" media="screen" type="text/css">
+<script src="/fancybox/jquery.fancybox.pack.js"></script>
+
+
+<script src="/js/script.js" type="text/javascript"></script>
+
+  </div>
+</body>
+</html>
